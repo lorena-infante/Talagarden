@@ -1,0 +1,35 @@
+@import "./container-building.css";
+@import "./img-container.css";
+@import "./social-media.css";
+@import "./welcome-text.css";
+
+:root{
+    --fontBase:'Open Sans', sans-serif;
+    --fontSecond:"Lato", sans-serif;
+    /*font-weight font-size/line-height font-family*/
+    --title: bold 40px/ 10px var(--fontBase);
+    --body: 20px/ 10px var(--fontSecond);
+    --verdeOscuro:#132A13;
+    --hunterGreen:#31572C;
+    --sapGreen:#4F772D;
+    --olivine:#90A955;
+    --keyLime:#ECF39E;
+    --white:#FFFFFF;
+    --black:#000000;
+    --brown: #4C260C;
+    --voOpacity:rgba(19,42,19,0.8);
+
+
+}
+
+body{
+    font:var(--body);
+    
+    /*por defecto*/
+    color:var(--verdeOscuro);
+    /*Este es solo para la building page*/
+    background-color: var(--olivine);
+    /*por defecto
+    background-color: var(--white);*/
+    margin:0px;
+}

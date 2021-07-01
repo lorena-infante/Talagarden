@@ -1,0 +1,4 @@
+.welcome-text{
+    font: bold 25px/ 10px var(--fontBase);
+    color:var(--white);
+}
