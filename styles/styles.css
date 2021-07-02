@@ -1,3 +1,5 @@
+@import "./header-content.css";
+@import "./menu.css";
 @import "./container-building.css";
 @import "./img-container.css";
 @import "./social-media.css";
@@ -24,12 +26,9 @@
 
 body{
     font:var(--body);
-    
     /*por defecto*/
     color:var(--verdeOscuro);
-    /*Este es solo para la building page*/
-    background-color: var(--olivine);
-    /*por defecto
-    background-color: var(--white);*/
+    /*por defecto*/
+    background-color: var(--white);
     margin:0px;
 }
