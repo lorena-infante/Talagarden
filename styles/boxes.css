@@ -1,0 +1,13 @@
+.boxes{
+  /*  display:flex;
+    
+    justify-content: center;*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+
+}
+.box1,.box2,.box3{
+    border: 2px solid red;
+}
+

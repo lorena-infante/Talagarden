@@ -1,15 +1,22 @@
-@import "./header-content.css";
-@import "./menu.css";
 @import "./container-building.css";
 @import "./img-container.css";
 @import "./social-media.css";
 @import "./welcome-text.css";
+@import "./header-content.css";
+@import "./menu.css";
+@import "./wrapper-banner.css";
+@import "./banner-container.css";
+@import "./banner-img.css";
+@import "./wrapper-boxes.css";
+@import "./boxes.css";
+
 
 :root{
     --fontBase:'Open Sans', sans-serif;
     --fontSecond:"Lato", sans-serif;
     /*font-weight font-size/line-height font-family*/
     --title: bold 40px/ 10px var(--fontBase);
+    --subtitle: 600 21px/5px var(--fontBase);
     --body: 20px/ 10px var(--fontSecond);
     --verdeOscuro:#132A13;
     --hunterGreen:#31572C;
