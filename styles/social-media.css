@@ -4,3 +4,10 @@
     gap: 70px;
     align-items: center;
 }
+
+@media screen and (max-width:768px) {
+    .social-media{
+        gap:30px;
+    } 
+    
+}

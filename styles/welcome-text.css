@@ -2,3 +2,12 @@
     font: bold 25px/ 10px var(--fontBase);
     color:var(--white);
 }
+
+
+@media screen and (max-width:768px) {
+    .welcome-text h1{
+        line-height: normal;
+        text-align: center;
+    } 
+    
+}
