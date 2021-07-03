@@ -39,3 +39,7 @@ body{
     background-color: var(--white);
     margin:0px;
 }
+
+.body-building{
+    background-color: var(--olivine);
+}

@@ -2,4 +2,5 @@
     display: flex;
     padding-top: 50px;
     gap: 70px;
+    align-items: center;
 }
