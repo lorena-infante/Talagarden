@@ -9,14 +9,16 @@
 @import "./banner-img.css";
 @import "./wrapper-boxes.css";
 @import "./boxes.css";
+@import "./text-boxes-home.css";
+@import "./products-text.css";
 
 
 :root{
     --fontBase:'Open Sans', sans-serif;
     --fontSecond:"Lato", sans-serif;
     /*font-weight font-size/line-height font-family*/
-    --title: bold 40px/ 10px var(--fontBase);
-    --subtitle: 600 21px/5px var(--fontBase);
+    --title: bold 40px/ normal var(--fontBase);
+    --subtitle: 600 21px/normal var(--fontBase);
     --body: 20px/ 10px var(--fontSecond);
     --verdeOscuro:#132A13;
     --hunterGreen:#31572C;

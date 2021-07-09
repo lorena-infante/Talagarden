@@ -1,13 +1,35 @@
 .boxes{
   /*  display:flex;
-    
-    justify-content: center;*/
-    display: grid;
-    grid-template-columns: auto auto auto;
+    justify-content: center;
+  -----------------------
+    align-items: center;
+    justify-content: space-between;
     gap: 30px;
+    
+    -------------------
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    gap: 30px;*/
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+
+
+
 
 }
 .box1,.box2,.box3{
     border: 2px solid red;
+    width:33.3%;
+    position: relative;
 }
 
+.box1 img, .box2 img, .box3 img{
+  width:100%
+}
+
+.box2 {
+  border:2px solid var(--verdeOscuro);
+  background-image: var(--white);
+}
