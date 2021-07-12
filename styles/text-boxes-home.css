@@ -1,49 +1,72 @@
 .text-box1, .text-box3{
     position: absolute;
-    top: 60%;
-    bottom: 50%;
-    left: 0%;
-    right: 0%;
-    background: rgba(255, 255, 255, 0.6);
-    color: var(--verdeOscuro);
-    width: auto;
-    padding: 50px;
-    font:var(--title);
+    background-color: rgba(255,255,255,0.7);
+    bottom: 24%;
+    width: 100%;
+    text-align: center;
+    padding-block: 20px;
+
 }
 
 .text-box2{
-    display: block;
+    border: 2px solid var(--verdeOscuro);
+}
+
+.text-box1 h1, .text-box2 h1 ,.text-box3 h1{
+    font: bold 30px/5px var(--fontBase);
     text-align: center;
-    line-height: normal;
+
 }
 
-.text-box1 p{
-    top: 0%;
-    bottom: 0;
-    position: absolute;
-    color: var(--verdeOscuro);
-    font: var(--subtitle);
-    font-size: 30px;
-    padding-left: 15px;
-}
-/*
-.text-box2 p{
-    top: 0%;
-    bottom: 0;
-    position: absolute;
-    color: var(--verdeOscuro);
-    font: var(--subtitle);
-    font-size: 30px;
-    padding-left: 15px;    
-      
-}*/
-
-.text-box3 p{
-    top: 0%;
-    bottom: 0;
-    position: absolute;
-    color: var(--verdeOscuro);
-    font: var(--subtitle);
-    font-size: 30px;
-    padding-left: 20px;
+@media (min-width: 768px) {
+ /*   .text-box1, .text-box3{
+        position: absolute;
+        top: 60%;
+        bottom: 50%;
+        left: 0%;
+        right: 0%;
+        background: rgba(255, 255, 255, 0.6);
+        color: var(--verdeOscuro);
+        width: auto;
+        padding: 50px;
+        font:var(--title);
+    }
+    
+    .text-box2{
+        display: block;
+        text-align: center;
+        line-height: normal;
+    }
+    
+    .text-box1 p{
+        top: 0%;
+        bottom: 0;
+        position: absolute;
+        color: var(--verdeOscuro);
+        font: var(--subtitle);
+        font-size: 30px;
+        padding-left: 15px;
+    }
+    
+    ------------------
+    .text-box2 p{
+        top: 0%;
+        bottom: 0;
+        position: absolute;
+        color: var(--verdeOscuro);
+        font: var(--subtitle);
+        font-size: 30px;
+        padding-left: 15px;    
+    -------------------      
+    }
+    
+    .text-box3 p{
+        top: 0%;
+        bottom: 0;
+        position: absolute;
+        color: var(--verdeOscuro);
+        font: var(--subtitle);
+        font-size: 30px;
+        padding-left: 20px;
+    }*/
 }

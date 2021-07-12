@@ -6,7 +6,6 @@
 @import "./menu.css";
 @import "./wrapper-banner.css";
 @import "./banner-container.css";
-
 @import "./wrapper-boxes.css";
 @import "./boxes.css";
 @import "./text-boxes-home.css";
@@ -20,7 +19,7 @@
     /*font-weight font-size/line-height font-family*/
     --title: bold 40px/ normal var(--fontBase);
     --subtitle: 600 21px/normal var(--fontBase);
-    --body: 20px/ 10px var(--fontSecond);
+    --body: 20px/ normal var(--fontSecond);
     --verdeOscuro:#132A13;
     --hunterGreen:#31572C;
     --sapGreen:#4F772D;

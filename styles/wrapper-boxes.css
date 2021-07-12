@@ -1,4 +1,8 @@
 .wrapper-boxes{
     border:2px solid green;
-    margin-top: 15px;
+    margin-top: 35px;
+}
+
+@media (min-width: 768px) {
+     
 }
