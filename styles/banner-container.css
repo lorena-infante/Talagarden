@@ -1,30 +1,37 @@
 .banner-container{
     background-color: var(--voOpacity);
+    display: flex;
+    flex-direction: column;
+}
+.banner-container .text {
+    order: 2;
+    text-align: center;
+    padding-left: 15px;
 }
 
-.banner-container{
-    justify-content: space-between;
-    background-color:var(--voOpacity);
 
-}
-
-.banner-container p{
-    font: var(--subtitle);
+.banner-container .text p{
+    font: 20px/3px var(--fontBase);
     color:var(--white);
 }
-.banner-container h1{
-    font: var(--title);
+.banner-container .text h1{
+    font: bold 35px/5px var(--fontBase);
+    line-height: 20px;
     color:var(--olivine);
 }
 
-.banner-container .text {
+.banner-img{
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 
 @media (min-width: 768px) {
+    
+    .banner-container{
+        justify-content: space-between;
+        background-color:var(--voOpacity);
+    
+    }
 
     .banner-container .text{
         display: flex;
