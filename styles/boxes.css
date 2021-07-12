@@ -1,15 +1,12 @@
 .boxes{
   display: flex;
-      flex-direction: column;
+  flex-direction: column;
+  gap: 35px;
 }
 .box1, .box3{
   position: relative;
 }
 
-.box1,.box2,.box3{
-  border: 2px solid red;
-  
-}
 @media (min-width: 768px) {
   /*.boxes{
     /*  display:flex;

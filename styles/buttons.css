@@ -1,3 +1,29 @@
 .button{
-    
+    /*background-color: var(--verdeOscuro);
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+    margin-block-end: 20px;
+    margin-block-start: 30px;*/
+    background-color: var(--verdeOscuro);
+    color: var(--white);
+    border:none;
+    border-radius: 7px;
+    text-align: center;
+    padding: 18px;
+    margin-inline-start: 90px;
+    margin-inline-end: 90px;
+    margin-block-end: 74px;
+    margin-block-start: 30px;
+    width: 180px;
+    font: bold 23px/normal var(--fontBase);
+
+}
+
+
+.button a{
+    text-decoration: none;
+    color:var(--white);
 }

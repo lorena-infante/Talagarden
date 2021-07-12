@@ -8,15 +8,32 @@
 
 }
 
-.text-box2{
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 2px solid var(--verdeOscuro);
-}
+    
 
+}
+.text-box2 > h1:nth-child(1) {
+    margin-block-start: 84px;
+   }
+   
 .text-box1 h1, .text-box2 h1 ,.text-box3 h1{
     font: bold 30px/5px var(--fontBase);
     text-align: center;
-
 }
+
+.text-box2 p{
+    font: var(--body);
+    text-align: center;
+    margin-block-start: 57px;
+    margin-block-end: 37px;
+}
+
+
+   
 
 @media (min-width: 768px) {
  /*   .text-box1, .text-box3{
