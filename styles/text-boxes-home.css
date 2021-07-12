@@ -1,4 +1,4 @@
-.text-box1{
+.text-box1, .text-box3{
     position: absolute;
     top: 60%;
     bottom: 50%;
@@ -11,6 +11,12 @@
     font:var(--title);
 }
 
+.text-box2{
+    display: block;
+    text-align: center;
+    line-height: normal;
+}
+
 .text-box1 p{
     top: 0%;
     bottom: 0;
@@ -18,4 +24,26 @@
     color: var(--verdeOscuro);
     font: var(--subtitle);
     font-size: 30px;
+    padding-left: 15px;
+}
+/*
+.text-box2 p{
+    top: 0%;
+    bottom: 0;
+    position: absolute;
+    color: var(--verdeOscuro);
+    font: var(--subtitle);
+    font-size: 30px;
+    padding-left: 15px;    
+      
+}*/
+
+.text-box3 p{
+    top: 0%;
+    bottom: 0;
+    position: absolute;
+    color: var(--verdeOscuro);
+    font: var(--subtitle);
+    font-size: 30px;
+    padding-left: 20px;
 }

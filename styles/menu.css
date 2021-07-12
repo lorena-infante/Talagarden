@@ -1,15 +1,23 @@
-.menu ul{
-    display: flex;
-    list-style: none;
-    gap: 70px;
-}
-.menu ul a{
-    text-decoration: none;
-    color:var(--verdeOscuro);
-    font:var(--subtitle);
+.menu{
+    display:none;
 }
 
-.menu ul a:hover{
-    background-color: var(--verdeOscuro);
-    color: var(--white);
+
+@media (min-width:768px) {
+    .menu ul{
+        display: flex;
+        list-style: none;
+        gap: 70px;
+    }
+    .menu ul a{
+        text-decoration: none;
+        color:var(--verdeOscuro);
+        font:var(--subtitle);
+    }
+    
+    .menu ul a:hover{
+        background-color: var(--verdeOscuro);
+        color: var(--white);
+    }
+     
 }

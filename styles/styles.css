@@ -6,11 +6,12 @@
 @import "./menu.css";
 @import "./wrapper-banner.css";
 @import "./banner-container.css";
-@import "./banner-img.css";
+
 @import "./wrapper-boxes.css";
 @import "./boxes.css";
 @import "./text-boxes-home.css";
-@import "./products-text.css";
+@import "./buttons.css";
+
 
 
 :root{
