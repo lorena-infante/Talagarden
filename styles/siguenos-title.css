@@ -1,0 +1,7 @@
+.siguenos-title{
+    text-align: center;
+}
+
+.siguenos-title h1{
+    font: var(--titleMobile);
+}

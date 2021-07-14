@@ -1,3 +1,4 @@
+@import "./elfsight-ig.css";
 @import "./container-building.css";
 @import "./img-container.css";
 @import "./social-media.css";
@@ -10,6 +11,9 @@
 @import "./boxes.css";
 @import "./text-boxes-home.css";
 @import "./buttons.css";
+@import "./siguenos-title.css";
+@import "./siguenos-subtitle.css";
+@import "./icons-home.css";
 
 
 
@@ -19,6 +23,7 @@
     /*font-weight font-size/line-height font-family*/
     --title: bold 40px/ normal var(--fontBase);
     --subtitle: 600 21px/normal var(--fontBase);
+    --titleMobile: bold 30px/5px var(--fontBase);
     --body: 20px/ normal var(--fontSecond);
     --verdeOscuro:#132A13;
     --hunterGreen:#31572C;

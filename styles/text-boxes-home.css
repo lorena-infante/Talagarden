@@ -21,7 +21,7 @@
    }
    
 .text-box1 h1, .text-box2 h1 ,.text-box3 h1{
-    font: bold 30px/5px var(--fontBase);
+    font: var(--titleMobile);
     text-align: center;
 }
 

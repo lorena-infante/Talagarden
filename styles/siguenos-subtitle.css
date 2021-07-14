@@ -1,0 +1,14 @@
+.siguenos-subtitle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+.siguenos-subtitle a{
+    font: var(--body);
+    text-decoration: none;
+    color: var(--verdeOscuro);
+}
+       
+   
