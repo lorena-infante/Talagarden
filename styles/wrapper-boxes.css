@@ -5,10 +5,9 @@
 }
 
 @media (min-width: 768px) {
-    .wrapper-boxes{
-        border:2px solid green;
+    .wrapper-boxes {
         margin-top: 35px;
-        margin-inline-start: 5px;
-        margin-inline-end: 5px;
-    }
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        }
 }

@@ -9,6 +9,23 @@
 }
 
 @media (min-width: 768px) {
+  .boxes {
+    display: grid;
+    grid-template-columns: auto 33.3% auto;
+    gap: 30px;
+     
+   }
+   .wrapper-boxes {
+    margin-top: 35px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    }
+  .text-box2 p {
+    margin-block-end: 30px;
+    }
+    .button {
+      margin-block-start: 40px;
+    }
   /*.boxes{
     /*  display:flex;
       justify-content: center;

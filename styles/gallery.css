@@ -1,4 +1,18 @@
 .gallery {
     display: flex;
    }
-   
+@media (min-width: 768px) {
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        /*! background-color: var(--olivine); */
+        margin-block-end: 50px;
+        /*! border: 2px solid var(--verdeOscuro); */
+        margin-inline-start: 100px;
+        margin-inline-end: 100px;
+        background-color: var(--hunterGreen);
+        padding-top: 50px;   
+        border-radius: 7px;
+       }
+}   

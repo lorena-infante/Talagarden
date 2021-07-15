@@ -3,3 +3,12 @@
     height: 25px;
     padding-right: 5px;
 }
+
+@media (min-width: 768px) {
+     
+    .icons-home {
+        width: 35px;
+        height: 35px;
+        padding-right: 5px;
+    }
+}

@@ -11,4 +11,10 @@
     color: var(--verdeOscuro);
 }
        
-   
+@media (min-width: 768px) {
+    .siguenos-subtitle a {
+        font: var(--subtitle);
+        text-decoration: none;
+        color: var(--verdeOscuro);
+    }
+}

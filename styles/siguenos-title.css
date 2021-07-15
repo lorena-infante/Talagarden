@@ -5,3 +5,17 @@
 .siguenos-title h1{
     font: var(--titleMobile);
 }
+
+@media (min-width: 768px){
+    .siguenos-title {
+        display: flex;
+        justify-content: center;
+        gap: 7px;
+       }
+
+    .siguenos-title h1 {
+        font: var(--title);
+        margin-bottom: 0px;
+    
+        }
+}
