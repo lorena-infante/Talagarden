@@ -1,0 +1,10 @@
+.footer-tala {
+    background: var(--voOpacity);
+    display: flex;
+    flex-direction: column;
+   }
+   
+.footer-tala h1{
+    font: var(--titleMobile);
+    color: var(--white);
+}

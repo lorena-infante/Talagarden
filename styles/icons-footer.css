@@ -1,0 +1,17 @@
+.icons-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+   }
+   
+   /*icons: instagram, whatsapp, youtube*/
+   a.button-icon:nth-child(1) > img:nth-child(1), a.button-icon:nth-child(2) > img:nth-child(1), a.button-icon:nth-child(4) > img:nth-child(1) {
+    height: 36px;
+   }
+   /*icon mail*/
+   a.button-icon:nth-child(3) > img:nth-child(1){
+    height: 32px;
+   }
+   

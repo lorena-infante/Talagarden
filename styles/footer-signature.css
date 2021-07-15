@@ -1,0 +1,6 @@
+.footer-signature{
+    display: flex;
+    justify-content: center;
+    font: 15px/ 5px var(--fontSecond);
+}
+
