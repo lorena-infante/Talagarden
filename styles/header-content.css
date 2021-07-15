@@ -3,3 +3,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media (min-width: 768px){
+    .header-content img{
+        width: 300px;
+    }
+}

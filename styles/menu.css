@@ -4,6 +4,9 @@
 
 
 @media (min-width:768px) {
+    .menu{
+        display: flex;
+    }
     .menu ul{
         display: flex;
         list-style: none;
