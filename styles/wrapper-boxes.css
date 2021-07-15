@@ -1,8 +1,14 @@
 .wrapper-boxes{
-    border:2px solid green;
     margin-top: 35px;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
 }
 
 @media (min-width: 768px) {
-     
+    .wrapper-boxes{
+        border:2px solid green;
+        margin-top: 35px;
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+    }
 }
