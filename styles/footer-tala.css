@@ -4,7 +4,31 @@
     flex-direction: column;
    }
    
-.footer-tala h1{
+.footer-tala .encuentranos{
     font: var(--titleMobile);
     color: var(--white);
+}
+
+.info-footer, .contacto-footer, .social-footer{
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+.encuentranos {
+    display: none;
+  }
+    
+  .icons-footer {
+    display: none;
+  }
+  .footer-tala{
+    flex-direction: row;
+  }
+ .info-footer, .contacto-footer, .social-footer{
+    display: flex;
+    display: none;
+    
+}
+     
 }
