@@ -40,8 +40,15 @@
         width: 100%;
         justify-content: center;
         order:1;
+        margin-block-start: 20px;
+    }
+    .banner-container .text p{
+        font: 600 30px/3px var(--fontBase);
     }
 
+    .text > p:nth-child(2) {
+        margin-top: 0;
+    }
     .banner-container .banner-img{
         order:2;
         width: 1000px;
