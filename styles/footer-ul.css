@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+    .info-ul, .contacto-ul, .social-ul {
+        /*! text-decoration: none; */list-style-type: none;
+        color: var(--white);
+        /*! gap: 5px; *//*! padding-inline: ; */align-content: center;
+        text-align: center;
+        padding-left: 0px;
+        font: 15px/ 35px var(--fontSecond);
+       }
+       
+       .li-link {
+        text-decoration: none;
+        color:var(--white);
+       } 
+
+       .icon-link-container {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+       }
+       
+     
+}

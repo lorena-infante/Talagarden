@@ -24,11 +24,19 @@
   }
   .footer-tala{
     flex-direction: row;
+    justify-content: space-around;
   }
+
  .info-footer, .contacto-footer, .social-footer{
     display: flex;
-    display: none;
+    flex-direction: column;
+    align-content: center;
     
 }
-     
+.info-footer h1,.contacto-footer h1, .social-footer h1  {
+    font: var(--subtitle);
+    color: var(--white);
+   }
+   
+
 }
