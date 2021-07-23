@@ -16,6 +16,12 @@
     
 
 }
+/*Anchor decoration for titles on boxes 1 and 3*/
+.text-box1 > a:nth-child(1),.text-box3 > a:nth-child(1) {
+    color: var(--verdeOscuro);
+    text-decoration: none;
+   }
+   
 .text-box2 > h1:nth-child(1) {
     margin-block-start: 84px;
    }

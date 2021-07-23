@@ -8,7 +8,7 @@
     text-align: center;
     padding-left: 15px;
 }
-
+ 
 
 .banner-container .text p{
     font: 20px/3px var(--fontBase);
@@ -19,6 +19,10 @@
     line-height: 20px;
     color:var(--olivine);
 }
+/*anchor link árboles nativos*/
+.text > a:nth-child(3) {
+    text-decoration: none;
+   }
 
 .banner-container .banner-img{
     display: flex;
