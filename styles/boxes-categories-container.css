@@ -13,7 +13,7 @@
     font-size: 22px;
     text-decoration: none;
 }
-.categories1-2, .categories3-4, .categories5-6 {
+.categories1-2, .categories3-4, .categories5-6, .categories7-8,.categories9-10, .category11 {
     display: flex;
     flex-direction: row;
     gap:20px;
@@ -21,19 +21,23 @@
    }
 
 .box-category1, .box-category2, .box-category3, .box-category4, .box-category5,
-.box-category6{
+.box-category6, .box-category7, .box-category8,.box-category9,.box-category10,
+.box-category11{
         width: 50%;
         position: relative;
    }
 
 .box-category1 img, .box-category2 img, .box-category3 img, .box-category4 img,
-.box-category5 img, .box-category6 img{
+.box-category5 img, .box-category6 img, .box-category7 img, .box-category8 img,
+.box-category9 img,.box-category10 img, .box-category11 img{
     width: 100%;
     display: flex;
 }
 
 .text-container-box1-categ, .text-container-box2-categ, .text-container-box3-categ,
-.text-container-box4-categ, .text-container-box5-categ, .text-container-box6-categ {
+.text-container-box4-categ, .text-container-box5-categ, .text-container-box6-categ,
+.text-container-box7-categ, .text-container-box8-categ, .text-container-box9-categ,
+.text-container-box10-categ, .text-container-box11-categ {
     position: absolute;
     background-color: rgba(255,255,255,0.8);
     text-align: center;
