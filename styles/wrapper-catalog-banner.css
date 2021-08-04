@@ -14,3 +14,20 @@
 .text-box-title-catalog h1{
     font: var(--titleMobile);
 }
+
+@media (min-width: 768px) {
+    .banner-catalog-img > img:nth-child(1) {
+        height: 528px;
+        object-fit: cover;
+        position: relative;
+       }
+       .text-box-title-catalog {
+            bottom: 8%;
+       }
+       .text-box-title-catalog > h1:nth-child(1) {
+            position: relative;
+
+       }
+       
+     
+}
