@@ -46,3 +46,29 @@
     
    }
    
+   @media (min-width: 768px) {
+    .categories-container {
+        background-color: var(--olivine);
+        padding-block-start: 3px;
+        padding-block-end: 3px;
+        margin-block-end: 25px;
+       }
+       
+    .boxes-categories-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       }
+       .categories1-2, .categories3-4, .categories5-6, .categories7-8,.categories9-10, .category11 {
+        display: flex;
+        /*! flex-direction: row; */
+        gap:20px;
+        margin-bottom: 14px;
+        width:60%;
+        /*! justify-content: ; */
+        /*! align-content: first baseline; */
+        height: 100%;
+       }
+       
+        
+   }
