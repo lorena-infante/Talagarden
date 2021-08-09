@@ -48,7 +48,7 @@
    
    @media (min-width: 768px) {
     .categories-container {
-        background-color: darkseagreen;
+      /*  background-color: darkseagreen;*/
         padding-block-start: 38px;
         padding-block-end: 38px;
         margin-block-end: 25px;
@@ -59,6 +59,14 @@
         align-items: center;
         flex-direction: column;
        }
+    
+        .box-category1 img:hover, .box-category2 img:hover, .box-category3 img:hover, .box-category4 img:hover,
+        .box-category5 img:hover, .box-category6 img:hover, .box-category7 img:hover, .box-category8 img:hover,
+        .box-category9 img:hover,.box-category10 img:hover, .box-category11 img:hover{
+            opacity: 0.8;
+        }
+    
+    
        .categories1-2, .categories3-4, .categories5-6, .categories7-8,.categories9-10, .category11 {
         display: flex;
         /*! flex-direction: row; */
