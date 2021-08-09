@@ -48,9 +48,9 @@
    
    @media (min-width: 768px) {
     .categories-container {
-        background-color: var(--olivine);
-        padding-block-start: 3px;
-        padding-block-end: 3px;
+        background-color: darkseagreen;
+        padding-block-start: 38px;
+        padding-block-end: 38px;
         margin-block-end: 25px;
        }
        
