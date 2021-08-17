@@ -23,7 +23,8 @@
 @import "./footer-signature.css";
 @import "./wrapper-catalog-banner.css";
 @import "./boxes-categories-container.css";
-
+@import "./wrapper-frutales-banner.css";
+@import "./counter-dropdown-box.css";
 
 
 :root{
