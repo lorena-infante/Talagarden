@@ -1,0 +1,21 @@
+.tab-container {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 10px;
+    font: var(--subtitle);
+    padding-bottom:20px;
+   }
+   
+
+.tab-container > a {
+    text-decoration: none;
+    background-color: var(--verdeOscuro);
+    color: var(--white);
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 15.9px;
+    border-radius: 3px;
+  }
