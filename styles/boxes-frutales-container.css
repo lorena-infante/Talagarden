@@ -84,12 +84,17 @@ p:nth-child(2) {
         flex-direction: column;
        }
     
-        .box-frutales1 img:hover, .box-frutales2 img:hover{
+      /*  .box-frutales1 img:hover, .box-frutales2 img:hover{
+            opacity: 0.8;
+        }*/
+        a:nth-child(1) > img:nth-child(1):hover{
             opacity: 0.8;
         }
     
-    
-        .frutales1-2, .frutales3-4 {
+        .frutales1-2, .frutales3-4, .frutales5-6,
+        .frutales7-8, .frutales9-10, .frutales11-12, 
+        .frutales13-14, .frutales15-16, 
+        .frutales17-18 {
         display: flex;
         /*! flex-direction: row; */
         gap:20px;

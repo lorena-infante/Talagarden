@@ -54,3 +54,29 @@
     color: var(--verdeOscuro);
   }
 */
+@media (min-width:768px){
+
+  .counter > p:nth-child(1) {
+    /* font: bold 16px var(--fontBase); */
+    font: var(--subtitle);
+  }
+
+  .dropbtn {
+    /* font: bold 16px var(--fontBase); */
+    font: var(--subtitle);
+  }
+
+  .counter-dropdown-box {
+    /* margin-inline-start: 18px; */
+    margin-inline-start: 100px;
+  }
+
+  .dropdown-mobile-box {
+    padding-top: 30px;
+  }
+
+  .counter-dropdown-box {
+    justify-content: space-evenly;
+  }
+
+}
