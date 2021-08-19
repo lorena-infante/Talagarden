@@ -64,7 +64,7 @@ p:nth-child(1) {
    }
    
 /*Se le aplica a TODOS los p:nth-child(2)*/
-p:nth-child(2) {
+.boxes-frutales-container p:nth-child(2) {
     font: var(--body);
     line-height: 5px;
    }
@@ -76,6 +76,7 @@ p:nth-child(2) {
         padding-block-start: 38px;
         padding-block-end: 38px;
         margin-block-end: 25px;
+        display:flex;
        }
        
         .boxes-frutales-container {

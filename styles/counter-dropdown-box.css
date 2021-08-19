@@ -76,7 +76,9 @@
   }
 
   .counter-dropdown-box {
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 200px;
+    margin-inline-start: 165px;
   }
 
 }
