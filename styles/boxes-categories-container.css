@@ -22,7 +22,7 @@
 
 .box-category1, .box-category2, .box-category3, .box-category4, .box-category5,
 .box-category6, .box-category7, .box-category8,.box-category9,.box-category10,
-.box-category11{
+.box-category11, .box-category12{
         width: 50%;
         position: relative;
    }
@@ -31,7 +31,10 @@
 .box-category5 img, .box-category6 img, .box-category7 img, .box-category8 img,
 .box-category9 img,.box-category10 img, .box-category11 img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: flex;
+
 }
 
 .text-container-box1-categ, .text-container-box2-categ, .text-container-box3-categ,
