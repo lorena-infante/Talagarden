@@ -65,12 +65,41 @@ p:nth-child(1) {
     line-height: 20px;
    }
    
+.boxes-frutales-container .text-container-box1-frutal > p:nth-child(1){
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
 /*Se le aplica a TODOS los p:nth-child(2)*/
 .boxes-frutales-container p:nth-child(2) {
     font: var(--body);
     line-height: 5px;
    }
+
+
+.boxes-frutales-container p:nth-child(2) {
+    /* line-height: 5px; */
+    line-height: 0px;
+    font: 18px/ 0px var(--fontSecond);
+  }
+  
+  .boxes-frutales-container .text-container-box1-frutal > p:nth-child(3) {
+    font: lighter 15px/ 7px var(--fontSecond);
+  }
+  /* .text-container-box1-frutal > p:nth-child(3) {
+    font: lighter 15px/ 7px var(--fontSecond);
+  } */
+  
+  /* .text-container-box1-frutal > p:nth-child(2) {
+    font: 18px/ 0px var(--fontSecond);
+  } */
    
+ 
+  /* .boxes-frutales-container > p:nth-child(1) {
+    margin-bottom: 0px;
+    margin-top: 10px;
+  } */
+  
    
    @media (min-width: 768px) {
         .frutales-container {
