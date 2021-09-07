@@ -35,7 +35,9 @@
     /* padding-right: 10px; */
     padding-right: 40px;
   }
-
+  .prev-arrow {
+    display: none;
+    }
   .tab-container > a {
     /* width: 20px; */
     /* height: 20px; */
