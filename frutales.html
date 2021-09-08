@@ -63,17 +63,14 @@
             <p>20 Productos(s)</p>
         </div>
         <div class="dropdown-mobile-box">
-            <button onclick="myFunction()" class="dropbtn">Ordenar por <img src="./icons/filtro-icon-Talagarden.svg.svg" alt="filtro-icono-Talagarden Vivero Santiago">
-            </button>
-        <!-- DESCOMENTAR PARA APLÑICAR EL JS!!  <div class="dropdown-content">
-              <div class="opt1">Lo más reciente primero</div>  
-              <div class="opt2">Precio (menor a mayor)</div>
-              <div class="opt3">Precio (mayor a menor)</div>
-              <div class="opt4">Tamaño (menor a mayor)</div>
-              <div class="opt5">Tamaño (mayor a menor)</div>
-              
-            </div> --> <!--fin dropdown-->     
-            
+            <!-- <button onclick="myFunction()" class="dropbtn">Ordenar por <img src="./icons/filtro-icon-Talagarden.svg.svg" alt="filtro-icono-Talagarden Vivero Santiago">
+            </button> -->
+            <label for="products">Ordenar por precio:</label>
+            <select name="products" id="products">
+                  <option value="less_to_greater">De menor a mayor</option>
+                  <option value="greater_to_less">De mayor a menor</option>
+            </select>
+        
         </div>
    
     </section> <!--fin de counter-dropdown-->
