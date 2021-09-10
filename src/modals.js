@@ -1,15 +1,20 @@
-const openModalButtons= document.querySelectorAll('[data-modal-target]');
-const closeModalButtons= document.querySelectorAll('[data-close-button]');
+const modal = document.querySelector('div .modal');
 const overlay = document.getElementById("overlay");
 
-/* openModalButtons.forEach(a =>{
-    a.addEventListener('click', ()=>{
-        const modal = document.querySelector('link-open-modal');
-        console.log(modal);
-    })
-}) */
+function openModal(){
+    const modal = document.querySelector('div .modal');
+    const overlay = document.getElementById("overlay");
+    console.log(modal);
+    console.log(overlay);
+    if(modal === null) return
+    modal.classList.add('active');
+    overlay.classList.add('active');
+}
 
-/* const openModal = () =>{
-    openModalButtons.addEventListener('click', console.log("click en link"));
-
-} */
+function closeModal(){
+    const modal = document.querySelector('div .modal');
+    const overlay = document.getElementById("overlay");
+    if(modal === null) return
+    modal.classList.remove('active');
+    overlay.classList.remove('active');
+}

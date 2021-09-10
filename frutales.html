@@ -93,7 +93,7 @@
         <div class="boxes-frutales-container">
            <div class="frutales1-2">
                <div class="box-frutales">
-                <a data-modal-target="#modal" onclick="openModal()">
+                <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">
                     <img src="./images/arbol de almendro -Talagarden Vivero Santiago.jpg" alt="foto árbol de almendro Talagarden vivero de arboles chile">
                     <div class="text-container-frutal">
                         <p>Almendro</p>
@@ -124,11 +124,11 @@
                         </div>
                    </div>
                    <div class="modal-footer">
-                    <button data-close-button class="close-button">Cerrar</button>
+                    <button onclick="closeModal()" data-close-button class="close-button">Cerrar</button>
                    </div> 
                </div><!-- end of modal1 -->
                <!-- Overlay for whole page to be in grey while modal is open -->
-               <div id="overlay"></div>
+               <div id="overlay" onclick="closeModal()"></div>
                <div class="box-frutales">
                     <a href="">                  
                         <img src="./images/arbol arandanos -Talagarden Vivero Santiago.jpg" alt="foto árbol arándano Talagarden vivero de arboles chile">
