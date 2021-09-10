@@ -6,7 +6,7 @@
     /*scale is used in order to create a smooth transition using one*/
     transform: translate(-50%,-50%) scale(0);
     transition:200ms ease-in-out;
-    border: 1px solid var(--verdeOscuro);
+    /* border: 1px solid var(--verdeOscuro); */
     border-radius:5px;
     z-index:10;
     background-color: var(--white);
@@ -20,11 +20,11 @@
 
 }
 
-.modal-header{
-    background-color: var(--verdeOscuro);
+/* .modal-header{
+    /* background-color: var(--verdeOscuro);
     height: 20px;
-    border-radius: 2px;
-}
+    border-radius: 2px; 
+} */
 .modal-body {
     padding: 0px 15px;
    }
@@ -33,7 +33,7 @@
     display: flex;
     justify-content: end;
     background-color: var(--verdeOscuro);
-    padding: 10px;
+    padding: 5px;
     border-radius: 3px;
 
     }
@@ -45,17 +45,19 @@
     font-size: 22px;
     text-align: center;
     line-height: 20px;
-    margin: 15px;
+    padding: 20px 0px;
+    margin: 0px;
 
 }
 
 .descript-title, .cares-title, .light-title{
-    font: semibold 18px/ 30px var(--fontSecond);
+    font: semibold 18px/ 15px var(--fontSecond);
     color:(--verdeOscuro);
 }
 
 .modal-descript, .cares-descript {
     font: lighter 15px/ normal var(--fontSecond);
+    margin-top: 3px;
    }
 
 .lighting {
