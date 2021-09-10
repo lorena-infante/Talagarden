@@ -1,0 +1,103 @@
+.modal{
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    /*to center in the complete middle and hide the content by default (scale)*/
+    /*scale is used in order to create a smooth transition using one*/
+    transform: translate(-50%,-50%) scale(0);
+    transition:200ms ease-in-out;
+    border: 1px solid var(--verdeOscuro);
+    border-radius:5px;
+    z-index:10;
+    background-color: var(--white);
+    width:300px;
+    height: 90%;
+    max-width:90%;
+}
+.modal.active{
+    /*shows the modal*/
+    transform: translate(-50%,-50%) scale(1);
+
+}
+
+.modal-header{
+    background-color: var(--verdeOscuro);
+    height: 20px;
+    border-radius: 2px;
+}
+.modal-body {
+    padding: 0px 15px;
+   }
+   
+.modal-footer {
+    display: flex;
+    justify-content: end;
+    background-color: var(--verdeOscuro);
+    padding: 10px;
+    border-radius: 3px;
+
+    }
+
+       
+.modal-title{
+    font: var(--titleMobile);
+    color: var(--verdeOscuro);
+    font-size: 22px;
+    text-align: center;
+    line-height: 20px;
+    margin: 15px;
+
+}
+
+.descript-title, .cares-title, .light-title{
+    font: semibold 18px/ 30px var(--fontSecond);
+    color:(--verdeOscuro);
+}
+
+.modal-descript, .cares-descript {
+    font: lighter 15px/ normal var(--fontSecond);
+   }
+
+.lighting {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+   
+
+.lighting > img{
+    height: 72px;
+    padding: 15px 0px;
+    gap: 10px;
+    
+  }
+
+  .close-button {
+    justify-content: flex-end;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 70px;
+    padding: 4px;
+    background-color: var(--verdeOscuro);
+    color: white;
+}
+
+#overlay{
+    position:fixed;
+    opacity:0;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 5;
+    transition:200ms ease-in-out;
+    pointer-events: none;
+    
+}
+
+#overlay .active{
+    opacity: 1;
+    pointer-events: all;
+}

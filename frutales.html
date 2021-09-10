@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="icon" type="image/png" href="./icons/tala_icon24x24-01.png"/>
+    <script src="./src/modals.js"></script>
     <title>Árboles Frutales Talagarden</title>
 </head>
 <body>
@@ -92,7 +93,7 @@
         <div class="boxes-frutales-container">
            <div class="frutales1-2">
                <div class="box-frutales">
-                <a href="">
+                <a data-modal-target="#modal" onclick="openModal()">
                     <img src="./images/arbol de almendro -Talagarden Vivero Santiago.jpg" alt="foto árbol de almendro Talagarden vivero de arboles chile">
                     <div class="text-container-frutal">
                         <p>Almendro</p>
@@ -101,6 +102,33 @@
                     </div>
                 </a>
                </div>
+               <div class="modal" id="modal1">
+                   <div class="modal-header"></div>
+                   <div class="modal-body">
+                       <div class="modal-title">Almendro</div>
+                       <div class="slider">
+                           <img src="./images/arbol de almendro -Talagarden Vivero Santiago.jpg" width="100px">
+                       </div>
+                       <div class="descript-title">Descripción</div>
+                       <p class="modal-descript">
+                        Arbol que puede llegar a medir 5 Metros de alto, Una floración de las mas bonitas en primavera y da frutos en gran magnitud.
+                       </p>
+                       <div class="cares-title">Cuidados</div>
+                       <p class="cares-descript">
+                        Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.
+                       </p>
+                       <div class="light-title">Iluminación                     </div>
+                       <div class="lighting">
+                           <img src="./icons/sol.png" alt="mejores resultados al sol">
+                           <img src="./icons/semi-sombra.png" alt="mejores resultados a la semi sombra">
+                        </div>
+                   </div>
+                   <div class="modal-footer">
+                    <button data-close-button class="close-button">Cerrar</button>
+                   </div> 
+               </div><!-- end of modal1 -->
+               <!-- Overlay for whole page to be in grey while modal is open -->
+               <div id="overlay"></div>
                <div class="box-frutales">
                     <a href="">                  
                         <img src="./images/arbol arandanos -Talagarden Vivero Santiago.jpg" alt="foto árbol arándano Talagarden vivero de arboles chile">
