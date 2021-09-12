@@ -13,6 +13,7 @@
     width:300px;
     height: 90%;
     max-width:90%;
+    overflow-y: scroll;
 }
 .modal.active{
     /*shows the modal*/

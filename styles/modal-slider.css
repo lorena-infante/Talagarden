@@ -1,0 +1,52 @@
+.div__slider_container{
+    position:relative;
+
+}
+
+.slider__prev, .slider__next{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    background-color: transparent;
+    color: var(--white);
+    top: 80px;
+    z-index: 10;
+    font-size: 20px;
+    opacity: 75%;
+    
+    
+}
+
+.slider__prev{
+    left:5px;
+}
+.slider__next{
+    right: 5px;
+}
+
+.slider__list{
+    overflow:hidden;
+}
+
+.slider__indicators .glider-dot{
+    display: block;
+    width: 20px;
+    height:4px;
+    border-radius: 0;
+    background:var(--hunterGreen);
+    opacity:.2;
+}
+
+.slider__indicators .glider-dot:hover{
+    opacity: .5;
+}
+
+.slider__indicators .glider-dot.active{
+    opacity: 1;
+    background:var(--hunterGreen);
+}
