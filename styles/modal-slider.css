@@ -54,21 +54,24 @@
 @media(min-width:768px){
 .glider-track{
     text-align: center;
-/*     width: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    z-index: 1; */
 
 }    
 .glider-slide img{
     max-width: 100%;
     max-height: 400px;
     width: 100%;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* text-align: center; */
     object-fit: cover;
 }
-
+.slider__prev, .slider__next{
+    font-size: 45px;
+}
+.slider__prev:hover, .slider__next:hover{
+    opacity:1;
+}
+.slider__prev{
+    left: 15px;
+}
+.slider__next{
+    right: 15px;
+}
 }

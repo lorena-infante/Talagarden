@@ -108,10 +108,14 @@
 @media(min-width:768px){
 
     .modal{
-    width:90%;
+    width:75%;
     height: 90%;
     max-width:90%;
     overflow-y: none;
     }
     
+    .modal-title{
+        font-size: 30px;
+        padding: 40px;
+    }
 }
