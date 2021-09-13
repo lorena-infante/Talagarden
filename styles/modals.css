@@ -104,3 +104,14 @@
     opacity: 1;
     pointer-events: all;
 }
+
+@media(min-width:768px){
+
+    .modal{
+    width:90%;
+    height: 90%;
+    max-width:90%;
+    overflow-y: none;
+    }
+    
+}
