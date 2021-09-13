@@ -57,7 +57,7 @@
 }
 
 .modal-descript, .cares-descript {
-    font: lighter 15px/ normal var(--fontSecond);
+    font: lighter 15px/ normal var(--fontSecond)!important;;
     margin-top: 3px;
    }
 
@@ -112,10 +112,33 @@
     height: 90%;
     max-width:90%;
     overflow-y: none;
+    display: flex;
+    flex-direction: column;
     }
     
     .modal-title{
         font-size: 30px;
-        padding: 40px;
+        padding: 20px;
+    }
+    .descript-title, .cares-title, .light-title {
+        font-size: 25px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .modal-descript, .cares-descript {
+            font: lighter 20px/ 30px var(--fontSecond)!important;
+        text-align: center;
+    }
+    .texts-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .lighting > img {
+        height:100px;
+    }
+    .modal-footer{
+        padding: 10px;
     }
 }
