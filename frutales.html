@@ -13,8 +13,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <script src="https://kit.fontawesome.com/8e423ff9ed.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
-    <script src="./src/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+    <!-- <script type="module" src="./src/app.js"></script> -->
+    <script src="./src/catalog.js"></script>
     <script src="./src/modals.js"></script>
+    <script src="./src/glider.js"></script>
+    
     <title>Árboles Frutales Talagarden</title>
 </head>
 <body>
@@ -100,9 +104,9 @@
                 <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">
                     <img src="./images/arbol de almendro -Talagarden Vivero Santiago.jpg" alt="foto árbol de almendro Talagarden vivero de arboles chile">
                     <div class="text-container-frutal">
-                        <p>Almendro</p>
-                        <p>$9000</p>
-                        <p>Altura: 1.5 mts</p>
+                        <p id="pName">Adfd</p>
+                        <p id="pPrice">$9000</p>
+                        <p id="pHeight">Altura: 1.5 mts</p>
                     </div>
                 </a>
                </div>
@@ -140,7 +144,7 @@
                            <p class="cares-descript">
                             Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.
                            </p>
-                           <div class="light-title">Iluminación                     </div>
+                           <div class="light-title">Iluminación                 </div>
                            <div class="lighting">
                                <img src="./icons/sol.png" alt="mejores resultados al sol">
                                <img src="./icons/semi-sombra.png" alt="mejores resultados a la semi sombra">
