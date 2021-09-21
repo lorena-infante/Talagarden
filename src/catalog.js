@@ -13,58 +13,62 @@
                 medidas,
                 foto;
         //naming DOM variables fot the "P" elements on frutales-box
-        let pName = document.getElementById("pName")
-        ,pPrice,pHeight;
-        console.log(pName);      
+        /* document.querySelectorAll('.text-container-frutal>p') */
+        
+        let pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),//pilas aqwui era antes getElementById("pName") 
+        pPrice = document.getElementById("pPrice"),
+        pHeight = document.getElementById("pHeight");
+        console.log(pName);  
+        /* console.log(pPrice);  
+        console.log(pHeight);  */   
 
         //recorriendo la data y chequeando que solo traiga los árboles de la categoría "FRU"
-        catalogData.forEach(producto => {
-            if(producto.id_categoria === "FRU"){  
-                  
-                console.log(producto);      
-                nombre_producto = producto.nombre_producto;
-                pName.innerHTML= `${nombre_producto}`
-                
-
-                //prod_array.push(nombre_producto);
-              /*   let prod_array= [nombre_producto];
-                console.log(prod_array);
-                pName.innerHTML= `${prod_array}`;
-                prod_array.forEach(elem => {
-
-                    /* pName.innerHTML= `${elem.nombre_producto}`; 
+        
+            catalogData.forEach((producto,index) => {
+                if(producto.id_categoria === "FRU"){  
+                    console.log(producto); 
+                         
+                    pName.forEach((name)=>{
+                        name.textContent = producto.nombre_producto;
+                        let prodIndex= index;
+                        console.log(prodIndex);
+                        pName.item(index);
+                         
+                    })  
+                    nombre_producto = producto.nombre_producto;
+                    precio = producto.precio;
+                    medidas = producto.medidas;
+                    foto = producto.foto;
+    
+                    console.log(nombre_producto,precio,medidas,foto);
                     
-                }); */
-                /* pName.innerHTML= `${nombre_producto}`; */
-                /* console.log(nombreArray); */
-                
-
-                /* nombre_producto = producto.nombre_producto;
-                nombreArray= nombre_producto.map(arbol => arbol.nombre_producto); */
-                
-            }
-        });
+                    
+    
+                    //prod_array.push(nombre_producto);
+                  /*   let prod_array= [nombre_producto];
+                    console.log(prod_array);
+                    pName.innerHTML= `${prod_array}`;
+                    prod_array.forEach(elem => {
+    
+                        /* pName.innerHTML= `${elem.nombre_producto}`; 
+                        
+                    }); */
+                    /* pName.innerHTML= `${nombre_producto}`; */
+                    /* console.log(nombreArray); */
+                    
+    
+                    /* nombre_producto = producto.nombre_producto;
+                    nombreArray= nombre_producto.map(arbol => arbol.nombre_producto); */
+                    
+                }
+                /* pName.textContent= `${nombre_producto}`;
+                pPrice.textContent= `$${precio}`;
+                pHeight.textContent= `Altura: ${medidas}`; */
+            });
+        
         
 
 
-        
-     /*    for(let i=0;i< catalogData.length;i++){
-            if(catalogData[i].id_categoria=== 'FRU'){
-                id_categoria = catalogData[i].id_categoria;
-                categoria = catalogData[i].categoria;
-                id_producto = catalogData[i].id_producto;
-                nombre_producto = catalogData[i].nombre_producto;
-                precio = catalogData[i].precio;
-                medidas = catalogData[i].medidas;
-                foto = catalogData[i].foto;
-                console.log(id_categoria,categoria,id_producto,
-                    nombre_producto, precio, medidas, foto);
-
-            }
-                //replacing values in HTML
-               // pName.innerHTML= `${producto}`; 
-        }
- */
     }catch(error){
         console.log(`el error es: ${error}`);
     }
