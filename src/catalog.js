@@ -24,47 +24,57 @@
 
         //recorriendo la data y chequeando que solo traiga los árboles de la categoría "FRU"
         
+        
             catalogData.forEach((producto,index) => {
+                let pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),//pilas aqwui era antes getElementById("pName") 
+                pPrice = document.getElementById("pPrice"),
+                pHeight = document.getElementById("pHeight");
+                 
                 if(producto.id_categoria === "FRU"){  
                     console.log(producto); 
-                         
-                    pName.forEach((name)=>{
-                        name.textContent = producto.nombre_producto;
-                        let prodIndex= index;
-                        console.log(prodIndex);
-                        pName.item(index);
-                         
-                    })  
+                    //el length de los futales
+                    const frutales = catalogData.filter(producto => producto.id_categoria === "FRU");
+                    const frutalesLength=frutales.length; 
+                    console.log(frutalesLength);
+                    /* let prodIndexIf= index;      
+                    console.log(prodIndexIf); */
                     nombre_producto = producto.nombre_producto;
                     precio = producto.precio;
                     medidas = producto.medidas;
                     foto = producto.foto;
-    
-                    console.log(nombre_producto,precio,medidas,foto);
-                    
-                    
-    
-                    //prod_array.push(nombre_producto);
-                  /*   let prod_array= [nombre_producto];
-                    console.log(prod_array);
-                    pName.innerHTML= `${prod_array}`;
-                    prod_array.forEach(elem => {
-    
-                        /* pName.innerHTML= `${elem.nombre_producto}`; 
+                    let i=0;
+                    for(i; i<frutalesLength; i++){
+                        //pName[i].textContent= nombre_producto;
+                        pName.item(i).textContent=nombre_producto;
+
+                        //pName.item(i).textContent= nombre_producto;
                         
-                    }); */
-                    /* pName.innerHTML= `${nombre_producto}`; */
-                    /* console.log(nombreArray); */
+
+                    }
+                    pName.textContent = nombre_producto;
+                    console.log(pName.textContent);
                     
-    
-                    /* nombre_producto = producto.nombre_producto;
-                    nombreArray= nombre_producto.map(arbol => arbol.nombre_producto); */
+                    /* pName.item(0).textContent= nombre_producto
+                    console.log(pName.textContent); */
+                    //console.log(nombre_producto);
+                    //console.log(pName.item(index)); 
+                    console.log(nombre_producto,precio,medidas,foto); 
+                    //pName.textContent = nombre_producto;
                     
                 }
-                /* pName.textContent= `${nombre_producto}`;
-                pPrice.textContent= `$${precio}`;
+                
+                
+                //pName.textContent= `${nombre_producto}`;
+                /*pPrice.textContent= `$${precio}`;
                 pHeight.textContent= `Altura: ${medidas}`; */
             });
+            /* pName.forEach((name,index)=>{
+                name.textContent = nombre_producto;
+                let prodIndex= index;  
+                console.log(prodIndex);
+                pName.item(prodIndex).textContent= nombre_producto;
+                 
+            });  */
         
         
 
