@@ -23,8 +23,8 @@
         console.log(pHeight);  */   
 
         //recorriendo la data y chequeando que solo traiga los árboles de la categoría "FRU"
-        
-        
+        //counter of pName
+        let i=0;
             catalogData.forEach((producto,index) => {
                 let pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),//pilas aqwui era antes getElementById("pName") 
                 pPrice = document.getElementById("pPrice"),
@@ -42,17 +42,17 @@
                     precio = producto.precio;
                     medidas = producto.medidas;
                     foto = producto.foto;
-                    let i=0;
-                    for(i; i<frutalesLength; i++){
-                        //pName[i].textContent= nombre_producto;
-                        pName.item(i).textContent=nombre_producto;
+                    
+                    pName[i].textContent= nombre_producto;
+                    i++;
+                    //for(i; i<frutalesLength; i++){
+                        //pName.item(i).textContent=nombre_producto;
 
                         //pName.item(i).textContent= nombre_producto;
-                        
 
-                    }
-                    pName.textContent = nombre_producto;
-                    console.log(pName.textContent);
+                    //} 
+                    /* pName.textContent = nombre_producto;
+                    console.log(pName.textContent); */
                     
                     /* pName.item(0).textContent= nombre_producto
                     console.log(pName.textContent); */
