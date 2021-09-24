@@ -20,6 +20,10 @@
         //el length de los futales
         const frutalesLength=frutales.length; 
         console.log(frutalesLength);
+        //numero de productos
+        const counter = document.querySelectorAll('.counter > p:nth-child(1)');
+        console.log(counter[0]);
+        counter[0].textContent=`${frutalesLength} Productos(s)`;
         //get number of box-frutales per page (to iterate until that amount of divs)
         let boxFrutales=document.querySelectorAll('.box-frutales');
         let boxFrutalesLength= boxFrutales.length;
