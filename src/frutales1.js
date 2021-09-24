@@ -55,14 +55,13 @@
                 
                 //places the right name on the right place
                 pName[i].textContent= `${nombre_producto}`;
+                pPrice[i].textContent= `$${precio}`;
+                pHeight[i].textContent= `Altura: ${medidas}`;
                 //iterates to keep on going through the page
                 i++;
                 
                 console.log(nombre_producto,precio,medidas,foto); 
 
-                //pName.textContent= `${nombre_producto}`;
-                /*pPrice.textContent= `$${precio}`;
-                pHeight.textContent= `Altura: ${medidas}`; */
             });
             
         
@@ -131,14 +130,14 @@ const getFrutalesPg2 = async(id_categoria)=>{
                 
                 //places the right name on the right place
                 pName[i].textContent= `${nombre_producto}`;
+                pPrice[i].textContent= `$${precio}`;
+                pHeight[i].textContent= `Altura: ${medidas}`;
                 //iterates to keep on going through the page
                 i++;
                 
                 console.log(nombre_producto,precio,medidas,foto); 
 
-                //pName.textContent= `${nombre_producto}`;
-                /*pPrice.textContent= `$${precio}`;
-                pHeight.textContent= `Altura: ${medidas}`; */
+                
             });
             
         
