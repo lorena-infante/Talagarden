@@ -1,5 +1,5 @@
 // getting id_categoria para frutales
- const getFrutalesPg1 = async(id_categoria)=>{
+ const getFrutalesPg1 = async()=>{
 
     try{
         const resFrut = await axios('./src/catalog.json'); 
@@ -20,7 +20,7 @@
         //el length de los futales
         const frutalesLength=frutales.length; 
         console.log(frutalesLength);
-        //numero de productos
+        //contador del numero de productos en el DOM
         const counter = document.querySelectorAll('.counter > p:nth-child(1)');
         console.log(counter[0]);
         counter[0].textContent=`${frutalesLength} Productos(s)`;
@@ -67,8 +67,6 @@
                 console.log(nombre_producto,precio,medidas,foto); 
 
             });
-            
-        
         
 
 
@@ -78,8 +76,7 @@
 
 }
 
-const getFrutalesPg2 = async(id_categoria)=>{
-
+const orderLessToGreat = async()=>{
     try{
         const resFrut = await axios('./src/catalog.json'); 
         const catalogData= resFrut.data.data;
@@ -99,22 +96,22 @@ const getFrutalesPg2 = async(id_categoria)=>{
         //el length de los futales
         const frutalesLength=frutales.length; 
         console.log(frutalesLength);
-        //get number of box-frutales per page (to iterate until that amount of divs)
+                //get number of box-frutales per page (to iterate until that amount of divs)
         let boxFrutales=document.querySelectorAll('.box-frutales');
         let boxFrutalesLength= boxFrutales.length;
         console.log(boxFrutalesLength);
         
         //Cantidad de frutales mostrados por página (si es la última página poner como end el frutalesLength y como inicio la posición del primer objeto del arreglo donde se quiere empezar. Si es la 1era página, empezae en 0, boxFrutalesLength)
-        let frutalesPerPage = frutales.slice(10,frutalesLength);
+        let frutalesPerPage = frutales.slice(0,boxFrutalesLength);
         console.log(frutalesPerPage);
-        
-        
-       
+        //ordena los productos por precio de menor a mayor, para hacerlo de mayor a menor se invierte el resultado, quedando: b.precio-a.precio
+        let fruPerPageSorted= frutalesPerPage.sort((a,b)=> a.precio - b.precio);
+        console.log(fruPerPageSorted);
         
         //counter of pName (to iterate through the forEach. Includes the new name on the p:nth-child(1) )
         let i=0;
         
-        frutalesPerPage.forEach(producto => {
+        fruPerPageSorted.forEach(producto => {
                 //si el numero de cajas en los divs es igual al numero de iteraciones que ha realizado (i), entonces debe detenerse el recorrido que ubica en el pName los nombres de los árboles
                 if (i === boxFrutalesLength) return false ;
 
@@ -141,10 +138,7 @@ const getFrutalesPg2 = async(id_categoria)=>{
                 
                 console.log(nombre_producto,precio,medidas,foto); 
 
-                
             });
-            
-        
         
 
 
@@ -154,5 +148,6 @@ const getFrutalesPg2 = async(id_categoria)=>{
 
 }
 
-getFrutalesPg1("FRU"); 
-//getFrutalesPg2("FRU"); 
+
+getFrutalesPg1(); 
+
