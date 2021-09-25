@@ -44,11 +44,14 @@
                 if (i === boxFrutalesLength) return false ;
 
                 //naming DOM variables fot the "P" elements on frutales-box
-                let pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),
+                let pPic = document.querySelectorAll('.img-frutal'),
+                pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),
                 pPrice = document.querySelectorAll('.text-container-frutal>p:nth-child(2)'),
                 pHeight = document.querySelectorAll('.text-container-frutal>p:nth-child(3)');
- 
-                console.log(producto); 
+                
+
+                console.log(producto);
+                //console.log(pPic); 
                 //console.log(pPrice); 
                 //console.log(pHeight);
 
@@ -56,8 +59,12 @@
                 precio = producto.precio;
                 medidas = producto.medidas;
                 foto = producto.foto;
-                
+                /* let newImg= new Image();
+                newImg.src= foto;
+                console.log(newImg);
+                console.log(foto); */
                 //places the right name on the right place
+                pPic[i].src=foto;
                 pName[i].textContent= `${nombre_producto}`;
                 pPrice[i].textContent= `$${precio}`;
                 pHeight[i].textContent= `Altura: ${medidas}`;
@@ -116,7 +123,8 @@ const orderLessToGreat = async()=>{
                 if (i === boxFrutalesLength) return false ;
 
                 //naming DOM variables fot the "P" elements on frutales-box
-                let pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),
+                let pPic = document.querySelectorAll('.img-frutal'), 
+                pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),
                 pPrice = document.querySelectorAll('.text-container-frutal>p:nth-child(2)'),
                 pHeight = document.querySelectorAll('.text-container-frutal>p:nth-child(3)');
  
@@ -128,8 +136,12 @@ const orderLessToGreat = async()=>{
                 precio = producto.precio;
                 medidas = producto.medidas;
                 foto = producto.foto;
-                
+                let newImg= new Image();
+                newImg.src= foto;
+                console.log(newImg);
+                console.log(foto);
                 //places the right name on the right place
+                pPic[i].src=foto;
                 pName[i].textContent= `${nombre_producto}`;
                 pPrice[i].textContent= `$${precio}`;
                 pHeight[i].textContent= `Altura: ${medidas}`;
@@ -189,7 +201,8 @@ const orderGreatToLess = async()=>{
                 if (i === boxFrutalesLength) return false ;
 
                 //naming DOM variables fot the "P" elements on frutales-box
-                let pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),
+                let pPic = document.querySelectorAll('.img-frutal'), 
+                pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),
                 pPrice = document.querySelectorAll('.text-container-frutal>p:nth-child(2)'),
                 pHeight = document.querySelectorAll('.text-container-frutal>p:nth-child(3)');
  
@@ -201,8 +214,12 @@ const orderGreatToLess = async()=>{
                 precio = producto.precio;
                 medidas = producto.medidas;
                 foto = producto.foto;
-                
+                let newImg= new Image();
+                newImg.src= foto;
+                console.log(newImg);
+                console.log(foto);
                 //places the right name on the right place
+                pPic[i].src=foto;
                 pName[i].textContent= `${nombre_producto}`;
                 pPrice[i].textContent= `$${precio}`;
                 pHeight[i].textContent= `Altura: ${medidas}`;
