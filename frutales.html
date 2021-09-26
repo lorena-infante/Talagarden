@@ -76,6 +76,7 @@
             </button> -->
             <label for="products">Ordenar por precio:</label>
             <select name="products" id="products">
+                  <option onclick="orderByDefault()" value="default">Por defecto</option>
                   <option onClick="orderLessToGreat()"value="less_to_greater">De menor a mayor</option>
                   <option onClick="orderGreatToLess()" value="greater_to_less">De mayor a menor</option>
             </select>

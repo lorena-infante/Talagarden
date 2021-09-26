@@ -163,7 +163,7 @@
             "nombre_producto": "Higuera",
             "medidas": "40 cms",
             "precio": 9000,
-            "foto": "",
+            "foto": "./images/arbol higuera -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a medir hasta 10 mts, Puede dar 2 tipos de frutos distintos y para dar sombra es un espectaculo.",
             "cuidados": "Requiere Sol o SemiSombra, Tambien requiere espacio a su alrededor para crecer bien, tener cuidado porque sus raices son invasivas. No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": "1, 3"
@@ -175,7 +175,7 @@
             "nombre_producto": "Mancaqui",
             "medidas": "1,2 mts",
             "precio": 9000,
-            "foto": "",
+            "foto": "./images/arbol mancaqui -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a medir 4 mts, se caracteriza por dar frutos en otoño cuando ningun arbol da frutos, al llegar el otoño pierde las hojas pero sus frutos quedan en el arbol dandole un toque especial a nuestro jardin.",
             "cuidados": "",
             "luz": ""
@@ -187,7 +187,7 @@
             "nombre_producto": "Manzano Fuji",
             "medidas": "1,8 mts",
             "precio": 9000,
-            "foto": "",
+            "foto": "./images/arbol manzano fuji -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": "1, 3"
@@ -199,7 +199,7 @@
             "nombre_producto": "Maqui",
             "medidas": "1 mt",
             "precio": 10000,
-            "foto": "",
+            "foto": "./images/arbol arandanos -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol Nativo que puede alcanzar los 4 mts de alto. Da pequeños frutos muy saludables.",
             "cuidados": "Requiere SemiSombra para darse bien, Requiere tierra ligeramente acida y resiste las heladas no mayores a -5 grados",
             "luz": ""
@@ -211,7 +211,7 @@
             "nombre_producto": "Membrillo Champion",
             "medidas": "1,7 mts",
             "precio": 9000,
-            "foto": "",
+            "foto": "./images/arbol membrillo champion -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": "1, 3"
@@ -223,7 +223,7 @@
             "nombre_producto": "Níspero",
             "medidas": "50 cms",
             "precio": 9000,
-            "foto": "",
+            "foto": "./images/arbol nispero -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 10 mts de altode crecimiento lento. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": "1, 3"
@@ -235,7 +235,7 @@
             "nombre_producto": "Nogal",
             "medidas": "1,8 mts",
             "precio": 10000,
-            "foto": "",
+            "foto": "./images/arbol nogal -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 7 mts de alto. Da muchos frutos en verano.",
             "cuidados": "Requiere Sol o SemiSombra, Requiere espacio para crecer y cuidado con sus raices al ser un arbol grande, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": "1, 3"
@@ -247,7 +247,7 @@
             "nombre_producto": "Olivo",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "",
+            "foto": "./images/arbol olivo -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol o arbusto Perenne, Que puede estar en maceta, que puede crecer hasta 4 mts en tierra, son arboles que pueden vivir por cientos de años y seguir dando frutos.",
             "cuidados": "Requiere Sol, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": "1, 3"
@@ -259,7 +259,7 @@
             "nombre_producto": "Peral",
             "medidas": "1,8 mts",
             "precio": 9000,
-            "foto": "",
+            "foto": "./images/arbol peral -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 7 mts de alto. Su floracion es Blanca y frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": "1, 3"
@@ -271,7 +271,7 @@
             "nombre_producto": "Pistacho",
             "medidas": "40 cms",
             "precio": 12000,
-            "foto": "",
+            "foto": "./images/arbol pistacho Talagarden Vivero Santiago.jpg",
             "descripcion": "",
             "cuidados": "",
             "luz": ""
