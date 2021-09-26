@@ -105,6 +105,9 @@
     pointer-events: all;
 }
 
+#open-modal-link{
+    cursor:pointer;
+}
 @media(min-width:768px){
 
     .modal{
