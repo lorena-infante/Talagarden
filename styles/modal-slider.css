@@ -49,7 +49,17 @@
 .slider__indicators .glider-dot.active{
     opacity: 1;
     background:var(--hunterGreen);
+    user-select: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    
 }
+.slider-modal-img {
+    max-width: 100%;
+    }
 
 @media(min-width:768px){
 .glider-track{
@@ -62,6 +72,7 @@
     width: 100%;
     object-fit: cover;
 }
+
 .slider__prev, .slider__next{
     font-size: 45px;
 }

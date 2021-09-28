@@ -11,7 +11,10 @@
                 nombre_producto,
                 precio,
                 medidas,
-                foto; 
+                foto,
+                descripcion,
+                cuidados,
+                luz; 
 
         //recorriendo la data y chequeando que solo traiga los árboles de la categoría "FRU"
         //solo trae los frutales
@@ -48,7 +51,14 @@
                 pName = document.querySelectorAll('.text-container-frutal>p:nth-child(1)'),
                 pPrice = document.querySelectorAll('.text-container-frutal>p:nth-child(2)'),
                 pHeight = document.querySelectorAll('.text-container-frutal>p:nth-child(3)');
-                
+                //modal DOM
+                let mTitle = document.querySelectorAll('.modal-title');
+                //console.log(mTitle),
+                mFoto = document.querySelectorAll('.glider-slide img');
+                mDescript = document.querySelectorAll('.modal-descript');
+                mCuidados = document.querySelectorAll('.cares-descript');
+                //hay que recorrer cada child y asociarle un nuev src a la img dependiendo del número añadido en el JSON: 1:sol 2:sombra 3:semiSombra
+                /* mIluminacion= document.querySelectorAll('.lighting')[0].children[0]; */
 
                 console.log(producto);
                 //console.log(pPic); 
@@ -59,6 +69,9 @@
                 precio = producto.precio;
                 medidas = producto.medidas;
                 foto = producto.foto;
+                descripcion = producto.descripcion;
+                cuidados= producto.cuidados;
+                luz = producto.luz;
                 /* let newImg= new Image();
                 newImg.src= foto;
                 console.log(newImg);
@@ -68,6 +81,16 @@
                 pName[i].textContent= `${nombre_producto}`;
                 pPrice[i].textContent= `$${precio}`;
                 pHeight[i].textContent= `Altura: ${medidas}`;
+                //modal assignations
+
+                
+                mTitle[i].textContent =`${nombre_producto}`;
+                mDescript[i].textContent= `${descripcion}`;
+                mCuidados[i].textContent = `${cuidados}`;
+                mFoto[i].src = foto;
+                console.log(mFoto);
+
+                //console.log(mTitle);
                 //iterates to keep on going through the page
                 i++;
                 

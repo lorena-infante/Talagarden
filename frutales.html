@@ -102,7 +102,7 @@
         <div class="boxes-frutales-container">
            <div class="frutales1-2">
                <div class="box-frutales">
-                <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">
+                <a id="open-modal-link" data-modal-target=".modal1" onclick="openModal()">
                     <img class="img-frutal" src="" alt="foto árbol de almendro Talagarden vivero de arboles chile">
                     <div class="text-container-frutal">
                         <p>undefined</p>
@@ -111,10 +111,11 @@
                     </div>
                 </a>
                </div>
+               <!-- modal -->
                <div class="modal" id="modal1">
                    <div class="modal-header"></div>
                    <div class="modal-body">
-                       <div class="modal-title">Almendro</div>
+                       <div class="modal-title">Nombre</div>
                        <div class="slider">
                            <div class="div__slider_container">
                                <button aria-label="Anterior" class="slider__prev">
@@ -122,7 +123,7 @@
                                </button>
                                <div class="slider__list">
                                    <div class="slider__item">
-                                       <img src="./images/arbol de almendro -Talagarden Vivero Santiago.jpg" alt="slider árboles">
+                                       <img src="" alt="slider árboles">
                                    </div>
                                </div>
                                <button aria-label="Siguiente" class="slider__next">
@@ -159,7 +160,7 @@
                <!-- Overlay for whole page to be in grey while modal is open -->
                <div id="overlay" onclick="closeModal()"></div>
                <div class="box-frutales">
-                    <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">                  
+                    <a id="open-modal-link" data-modal-target="#modal2" onclick="openModal2()">                  
                         <img class="img-frutal" src="" alt="foto árbol arándano Talagarden vivero de arboles chile">
                         <div class="text-container-frutal">
                             <p >undefined</p>
@@ -168,10 +169,58 @@
                         </div>
                     </a>
                </div>
+               <!-- modal -->
+               <div class="modal" id="modal2">
+                <div class="modal-header"></div>
+                <div class="modal-body">
+                    <div class="modal-title">Nombre</div>
+                    <div class="slider">
+                        <div class="div__slider_container">
+                            <button aria-label="Anterior" class="slider__prev">
+                             <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider__list">
+                                <div class="slider__item glider-slide active center visible">
+                                    <img class="" src="" alt="slider árboles">
+                                </div>
+                            </div>
+                            <button aria-label="Siguiente" class="slider__next">
+                             <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        
+                    </div> <!-- end of slider -->
+
+                    <div role="tablist" class="slider__indicators">
+                        <button data-index="0" aria-label="Page 1" class="glider-dot active"></button>
+                    </div>
+                    <div class="texts-container">
+
+                        <div class="descript-title">Descripción</div>
+                        <p class="modal-descript">
+                         Arbol que puede llegar a medir 5 Metros de alto, Una floración de las mas bonitas en primavera y da frutos en gran magnitud.
+                        </p>
+                        <div class="cares-title">Cuidados</div>
+                        <p class="cares-descript">
+                         Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.
+                        </p>
+                        <div class="light-title">Iluminación</div>
+                        <div class="lighting">
+                            <img src="./icons/sol.png" alt="mejores resultados al sol">
+                            <img src="./icons/semi-sombra.png" alt="mejores resultados a la semi sombra">
+                         </div>
+                    </div> <!-- end of texts-container -->
+                </div>
+                <div class="modal-footer">
+                 <button onclick="closeModal2()" data-close-button class="close-button">Cerrar</button>
+                </div> 
+            </div><!-- end of modal1 -->
+            <!-- Overlay for whole page to be in grey while modal is open -->
+            <div id="overlay2"class="overlay" onclick="closeModal2()"></div>
            </div><!--end frutales 1-2-->
            <div class="frutales3-4">
             <div class="box-frutales">
-             <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">
+             <a id="open-modal-link" data-modal-target="" onclick="">
                  <img class="img-frutal" src="" alt="foto árbol de Caqui Talagarden vivero de arboles chile">
                  <div class="text-container-frutal">
                      <p>undefined</p>
@@ -180,8 +229,9 @@
                  </div>
              </a>
             </div>
+            
             <div class="box-frutales">
-                 <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">                  
+                 <a id="open-modal-link" data-modal-target="" onclick="">                  
                      <img class="img-frutal" src="" alt="foto árbol cerezo Talagarden vivero de arboles chile">
                      <div class="text-container-frutal">
                          <p>undefined</p>
@@ -193,7 +243,7 @@
         </div><!--end frutales 3-4-->
         <div class="frutales5-6">
             <div class="box-frutales">
-             <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">
+             <a id="open-modal-link" data-modal-target="" onclick="">
                  <img class="img-frutal" src="" alt="foto árbol de Ciruelo Talagarden vivero de arboles chile">
                  <div class="text-container-frutal">
                      <p>undefined</p>
@@ -203,7 +253,7 @@
              </a>
             </div>
             <div class="box-frutales">
-                 <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">                  
+                 <a id="open-modal-link" data-modal-target="" onclick="">                  
                      <img class="img-frutal" src="" alt="foto árbol damasco Talagarden vivero de arboles chile">
                      <div class="text-container-frutal">
                          <p>undefined</p>
@@ -215,7 +265,7 @@
         </div><!--end frutales 5-6-->
         <div class="frutales7-8">
             <div class="box-frutales">
-             <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">
+             <a id="open-modal-link" data-modal-target="" onclick="">
                  <img class="img-frutal" src="" alt="foto árbol de Durazno Conservero Talagarden vivero de arboles chile">
                  <div class="text-container-frutal">
                      <p>undefined</p>
@@ -225,7 +275,7 @@
              </a>
             </div>
             <div class="box-frutales">
-                 <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">                  
+                 <a id="open-modal-link" data-modal-target="" onclick="">                  
                      <img class="img-frutal" src="" alt="foto árbol Durazno Plátano Talagarden vivero de arboles chile">
                      <div class="text-container-frutal">
                          <p>undefined</p>
@@ -247,7 +297,7 @@
              </a>
             </div>
             <div class="box-frutales">
-                 <a id="open-modal-link" data-modal-target="#modal" onclick="openModal()">                  
+                 <a id="open-modal-link" data-modal-target="" onclick="">                  
                      <img class="img-frutal" src="" alt="foto árbol Granado Talagarden vivero de arboles chile">
                      <div class="text-container-frutal">
                          <p>undefined</p>
