@@ -11,13 +11,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="icon" type="image/png" href="./icons/tala_icon24x24-01.png"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
-    <script src="https://kit.fontawesome.com/8e423ff9ed.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
-    <!-- <script type="module" src="./src/app.js"></script> -->
-    <script src="./src/frutales1.js"></script>
-    <script src="./src/modals.js"></script>
-    <script src="./src/glider.js"></script>
+    
     
     <title>Árboles Frutales Talagarden</title>
 </head>
@@ -102,8 +96,8 @@
         <div class="boxes-frutales-container">
            <div class="frutales1-2">
                <div class="box-frutales">
-                <a id="open-modal-link" data-modal-target=".modal1" onclick="openModal()">
-                    <img class="img-frutal" src="" alt="foto árbol de almendro Talagarden vivero de arboles chile">
+                <a id="open-modal-link" data-modal-target="#modal" >
+                    <img class="img-frutal"  alt="foto árbol de almendro Talagarden vivero de arboles chile">
                     <div class="text-container-frutal">
                         <p>undefined</p>
                         <p >$0</p>
@@ -112,7 +106,7 @@
                 </a>
                </div>
                <!-- modal -->
-               <div class="modal" id="modal1">
+               <div class="modal" id="modal">
                    <div class="modal-header"></div>
                    <div class="modal-body">
                        <div class="modal-title">Nombre</div>
@@ -140,27 +134,27 @@
 
                            <div class="descript-title">Descripción</div>
                            <p class="modal-descript">
-                            Arbol que puede llegar a medir 5 Metros de alto, Una floración de las mas bonitas en primavera y da frutos en gran magnitud.
+                            
                            </p>
                            <div class="cares-title">Cuidados</div>
                            <p class="cares-descript">
-                            Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.
+                            
                            </p>
                            <div class="light-title">Iluminación                 </div>
                            <div class="lighting">
-                               <img src="./icons/sol.png" alt="mejores resultados al sol">
-                               <img src="./icons/semi-sombra.png" alt="mejores resultados a la semi sombra">
+                               <!-- <img src="./icons/sol.png" alt="mejores resultados al sol">
+                               <img src="./icons/semi-sombra.png" alt="mejores resultados a la semi sombra"> -->
                             </div>
                        </div> <!-- end of texts-container -->
                    </div>
                    <div class="modal-footer">
-                    <button onclick="closeModal()" data-close-button class="close-button">Cerrar</button>
+                    <button data-close-button class="close-button">Cerrar</button>
                    </div> 
                </div><!-- end of modal1 -->
                <!-- Overlay for whole page to be in grey while modal is open -->
-               <div id="overlay" onclick="closeModal()"></div>
+               <div id="overlay"></div>
                <div class="box-frutales">
-                    <a id="open-modal-link" data-modal-target="#modal2" onclick="openModal2()">                  
+                    <a id="open-modal-link" data-modal-target="#modal2" >                  
                         <img class="img-frutal" src="" alt="foto árbol arándano Talagarden vivero de arboles chile">
                         <div class="text-container-frutal">
                             <p >undefined</p>
@@ -198,16 +192,15 @@
 
                         <div class="descript-title">Descripción</div>
                         <p class="modal-descript">
-                         Arbol que puede llegar a medir 5 Metros de alto, Una floración de las mas bonitas en primavera y da frutos en gran magnitud.
+                         
                         </p>
                         <div class="cares-title">Cuidados</div>
                         <p class="cares-descript">
-                         Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.
+                         
                         </p>
                         <div class="light-title">Iluminación</div>
                         <div class="lighting">
-                            <img src="./icons/sol.png" alt="mejores resultados al sol">
-                            <img src="./icons/semi-sombra.png" alt="mejores resultados a la semi sombra">
+                            
                          </div>
                     </div> <!-- end of texts-container -->
                 </div>
@@ -216,7 +209,7 @@
                 </div> 
             </div><!-- end of modal1 -->
             <!-- Overlay for whole page to be in grey while modal is open -->
-            <div id="overlay2"class="overlay" onclick="closeModal2()"></div>
+            <div id="overlay2"class="overlay" ></div>
            </div><!--end frutales 1-2-->
            <div class="frutales3-4">
             <div class="box-frutales">
@@ -386,5 +379,14 @@
 
 
     </footer> <!--fin del footer-->
+   
+    <script src="https://kit.fontawesome.com/8e423ff9ed.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+    <!-- <script type="module" src="./src/app.js"></script> -->
+    <script src="./src/frutales1.js"></script>
+    <script src="./src/modals_frutales.js"></script>
+    <script src="./src/glider.js"></script>
 </body>
+
 </html>

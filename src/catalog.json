@@ -10,7 +10,7 @@
             "foto": "",
             "descripcion": "Enredadera de crecimiento rapido, puede llegar a dar mucho fruto y mucha sombra en los lugares correctos.",
             "cuidados": "Requiere Sol, no necesita tanta agua y es resistente a sequias y a heladas no menores de -5 grados.",
-            "luz": 1
+            "luz": [1]
         },
         {
             "id_categoria": "PAR",
@@ -22,7 +22,7 @@
             "foto": "",
             "descripcion": "Enredadera de crecimiento rapido, puede llegar a dar mucho fruto y mucha sombra en los lugares correctos.",
             "cuidados": "Requiere Sol, no necesita tanta agua y es resistente a sequias y a heladas no menores de -5 grados.",
-            "luz": 1
+            "luz": [1]
         },
         {
             "id_categoria": "PAR",
@@ -34,7 +34,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "FRU",
@@ -46,7 +46,7 @@
             "foto": "./images/arbol de almendro -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a medir 5 mts de alto, Una floración de las mas bonitas en primavera y da frutos en gran magnitud.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -58,7 +58,7 @@
             "foto": "./images/arbol arandanos -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbusto que puede crecer en macetero o en tierra directamente, puede dar muchos frutos, sus hojas cambian de color en invierno y le dará vida a tu jardin en ese tiempo. ",
             "cuidados": "Requiere SemiSombra para darse bien, Requiere tierra ligeramente acida y resiste las heladas no mayores a -5 grados",
-            "luz": 3
+            "luz": [3]
         },
         {
             "id_categoria": "FRU",
@@ -70,7 +70,7 @@
             "foto":"./images/arbol caqui -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a medir 4 mts, se caracteriza por dar frutos en otoño cuando ningun arbol da frutos, al llegar el otoño pierde las hojas pero sus frutos quedan en el arbol dandole un toque especial a nuestro jardin.",
             "cuidados": "Requiere semiSombra y humedad para darse correctamente. ",
-            "luz": 3
+            "luz": [3]
         },
         {
             "id_categoria": "FRU",
@@ -82,7 +82,7 @@
             "foto": "./images/arbol cerezo -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a medir 4 mts de altura, su floracion es muy linda.",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "FRU",
@@ -94,7 +94,7 @@
             "foto": "./images/arbol ciruelo -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración blanca en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -106,7 +106,7 @@
             "foto": "./images/arbol damasco -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -118,7 +118,7 @@
             "foto": "./images/arbol durazno conservero -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -130,7 +130,7 @@
             "foto": "./images/arbol durazno nectarino platano -Talagarden Vivero Santiago-.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -142,7 +142,7 @@
             "foto": "./images/feijoa -Talagarden Vivero Santiago.jpg",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "FRU",
@@ -154,7 +154,7 @@
             "foto": "./images/arbol granado -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol o Arbusto que puede crecer hasta 5 mts de alto, Sus frutos se dan en otoño.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -166,7 +166,7 @@
             "foto": "./images/arbol higuera -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a medir hasta 10 mts, Puede dar 2 tipos de frutos distintos y para dar sombra es un espectaculo.",
             "cuidados": "Requiere Sol o SemiSombra, Tambien requiere espacio a su alrededor para crecer bien, tener cuidado porque sus raices son invasivas. No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -178,7 +178,7 @@
             "foto": "./images/arbol mancaqui -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a medir 4 mts, se caracteriza por dar frutos en otoño cuando ningun arbol da frutos, al llegar el otoño pierde las hojas pero sus frutos quedan en el arbol dandole un toque especial a nuestro jardin.",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "FRU",
@@ -190,7 +190,7 @@
             "foto": "./images/arbol manzano fuji -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -202,7 +202,7 @@
             "foto": "./images/arbol arandanos -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol Nativo que puede alcanzar los 4 mts de alto. Da pequeños frutos muy saludables.",
             "cuidados": "Requiere SemiSombra para darse bien, Requiere tierra ligeramente acida y resiste las heladas no mayores a -5 grados",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "FRU",
@@ -214,7 +214,7 @@
             "foto": "./images/arbol membrillo champion -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -226,7 +226,7 @@
             "foto": "./images/arbol nispero -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 10 mts de altode crecimiento lento. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -238,7 +238,7 @@
             "foto": "./images/arbol nogal -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 7 mts de alto. Da muchos frutos en verano.",
             "cuidados": "Requiere Sol o SemiSombra, Requiere espacio para crecer y cuidado con sus raices al ser un arbol grande, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -250,7 +250,7 @@
             "foto": "./images/arbol olivo -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol o arbusto Perenne, Que puede estar en maceta, que puede crecer hasta 4 mts en tierra, son arboles que pueden vivir por cientos de años y seguir dando frutos.",
             "cuidados": "Requiere Sol, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -262,7 +262,7 @@
             "foto": "./images/arbol peral -Talagarden Vivero Santiago.jpg",
             "descripcion": "Arbol que puede llegar a mediar 7 mts de alto. Su floracion es Blanca y frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "FRU",
@@ -274,7 +274,7 @@
             "foto": "./images/arbol pistacho Talagarden Vivero Santiago.jpg",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "CIT",
@@ -286,7 +286,7 @@
             "foto": "",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "CIT",
@@ -298,7 +298,7 @@
             "foto": "https://drive.google.com/drive/folders/14Kq3gs3PKhUnLldFVLZwQVktyd5VZ2UJ?usp=sharing",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos, Su fruto es de cascara dulce y al comerlo es muy rico.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "CIT",
@@ -310,7 +310,7 @@
             "foto": "",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos, Su fruto es de cascara dulce e incluso se puede comer con cascara para los que le gustan las cosas acidas.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "CIT",
@@ -322,7 +322,7 @@
             "foto": "https://drive.google.com/drive/folders/1E2tkvDF98DNfFxkC1ZIeNPeuKIBsVX3L?usp=sharing",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos. Su fruto es amarillo y siempre util en nuestra casa.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "CIT",
@@ -334,7 +334,7 @@
             "foto": "",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 5 mts de alto en tierra el mejor de los casos. Su fruto es verde y mas pequeño que el limon Sutil, puede servir para coctel.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "CIT",
@@ -346,7 +346,7 @@
             "foto": "https://drive.google.com/drive/folders/1NaI12ndZeV4-eiyCGn1oJgjNN4TlArpn?usp=sharing",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "CIT",
@@ -358,7 +358,7 @@
             "foto": "",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "CIT",
@@ -370,7 +370,7 @@
             "foto": "https://drive.google.com/drive/folders/1ercpTZKVyCvn9JbQyqpGTLvKIm5K3cbY?usp=sharing",
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 7 mts de alto en tierra el mejor de los casos. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
-            "luz": "1, 3"
+            "luz": [1, 3]
         },
         {
             "id_categoria": "PAL",
@@ -382,7 +382,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "PAL",
@@ -394,7 +394,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "FLO",
@@ -406,7 +406,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz": []
         },
         {
             "id_categoria": "FLO",
@@ -418,7 +418,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "FLO",
@@ -430,7 +430,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "FLO",
@@ -442,7 +442,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "FLO",
@@ -454,7 +454,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "FLO",
@@ -466,7 +466,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "FLO",
@@ -478,7 +478,7 @@
             "foto": "https://drive.google.com/drive/folders/1v4OfhSTc7pGvthb4aODavCXuKgz9osmO?usp=sharing",
             "descripcion": "Margolia es una…",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "FLO",
@@ -490,7 +490,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "VA",
@@ -502,7 +502,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "VA",
@@ -514,7 +514,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "VA",
@@ -526,7 +526,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "VA",
@@ -538,7 +538,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "VA",
@@ -550,7 +550,7 @@
             "foto": "https://drive.google.com/drive/folders/1-fh8ncQTBUl8DdGFA4zPm1ldlxJebpvw?usp=sharing",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "VA",
@@ -562,7 +562,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "NA",
@@ -574,7 +574,7 @@
             "foto": "https://drive.google.com/drive/folders/1F38NJz6hVQ8YlkOSIjeXP2VbE4iAoFIP?usp=sharing",
             "descripcion": "Árbol nativo puede alcanzar los 30 mts de alto, De raiz Pivotante",
             "cuidados": "Requiere Sol, puede resistir heladas y cuando es adulto resiste tiempos de sequia.",
-            "luz": 1
+            "luz": [1]
         },
         {
             "id_categoria": "NA",
@@ -586,7 +586,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "NA",
@@ -598,7 +598,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "NA",
@@ -610,7 +610,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "NA",
@@ -622,7 +622,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "NA",
@@ -634,7 +634,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "AR",
@@ -646,7 +646,7 @@
             "foto": "https://drive.google.com/drive/folders/1pjkPujNg2F2AJHkeJcEOe2ielMnEuakL?usp=sharing",
             "descripcion": "Los Boj son…",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "AR",
@@ -658,7 +658,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "AR",
@@ -670,7 +670,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "AR",
@@ -682,7 +682,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "AR",
@@ -694,7 +694,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "AR",
@@ -706,7 +706,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "AR",
@@ -718,7 +718,7 @@
             "foto": "https://drive.google.com/drive/folders/1oTM_x6TMHCiHcl9mb4iVV7ahcs_fTbBp?usp=sharing",
             "descripcion": "Estos arbustos son…",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "PLAN",
@@ -730,7 +730,7 @@
             "foto": "https://drive.google.com/drive/folders/1bFwqG2hqPPoyqeILyW3uQmyPNgNjPqsc?usp=sharing",
             "descripcion": "Las hermosas Camelias…",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "PLAN",
@@ -742,7 +742,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "PLAN",
@@ -754,7 +754,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "PLAN",
@@ -766,7 +766,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "PLAN",
@@ -778,7 +778,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "PLAN",
@@ -790,7 +790,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "PLAN",
@@ -802,7 +802,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "ROS",
@@ -814,7 +814,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "ROS",
@@ -826,7 +826,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "CACT",
@@ -838,7 +838,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "CACT",
@@ -850,7 +850,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "CACT",
@@ -862,7 +862,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "ABO",
@@ -874,7 +874,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "ABO",
@@ -886,7 +886,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         },
         {
             "id_categoria": "ABO",
@@ -898,7 +898,7 @@
             "foto": "",
             "descripcion": "",
             "cuidados": "",
-            "luz": ""
+            "luz":[]
         }
     ]
 }
