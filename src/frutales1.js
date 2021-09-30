@@ -58,7 +58,9 @@
                 nombre_producto = producto.nombre_producto;
                 precio = producto.precio;
                 medidas = producto.medidas;
-                foto = producto.foto;
+                //está en [0] porque por defecto muestra ÚNICAMENTE la primera foto del array. El resto se muestra en el slider.
+                foto = producto.foto[0];
+                console.log(foto);
                 /* let newImg= new Image();
                 newImg.src= foto;
                 console.log(newImg);
@@ -68,6 +70,7 @@
                 pName[i].textContent= `${nombre_producto}`;
                 pPrice[i].textContent= `$${precio}`;
                 pHeight[i].textContent= `Altura: ${medidas}`;
+                
                 //iterates to keep on going through the page
                 i++;
                 
@@ -143,11 +146,11 @@ const orderByDefault = async()=>{
                 nombre_producto = producto.nombre_producto;
                 precio = producto.precio;
                 medidas = producto.medidas;
-                foto = producto.foto;
-                /* let newImg= new Image();
+                foto = producto.foto[0];
+                let newImg= new Image();
                 newImg.src= foto;
                 console.log(newImg);
-                console.log(foto); */
+                console.log(foto);
                 //places the right name on the right place
                 pPic[i].src=foto;
                 pName[i].textContent= `${nombre_producto}`;
@@ -220,7 +223,7 @@ const orderLessToGreat = async()=>{
                 nombre_producto = producto.nombre_producto;
                 precio = producto.precio;
                 medidas = producto.medidas;
-                foto = producto.foto;
+                foto = producto.foto[0];
                 let newImg= new Image();
                 newImg.src= foto;
                 console.log(newImg);
@@ -298,7 +301,7 @@ const orderGreatToLess = async()=>{
                 nombre_producto = producto.nombre_producto;
                 precio = producto.precio;
                 medidas = producto.medidas;
-                foto = producto.foto;
+                foto = producto.foto[0];
                 let newImg= new Image();
                 newImg.src= foto;
                 console.log(newImg);

@@ -7,7 +7,7 @@
             "nombre_producto": "Moscatel ",
             "medidas": "1 mt",
             "precio": 8000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "Enredadera de crecimiento rapido, puede llegar a dar mucho fruto y mucha sombra en los lugares correctos.",
             "cuidados": "Requiere Sol, no necesita tanta agua y es resistente a sequias y a heladas no menores de -5 grados.",
             "luz": [1]
@@ -19,7 +19,7 @@
             "nombre_producto": "Sultanina ",
             "medidas": "1 mt",
             "precio": 8000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "Enredadera de crecimiento rapido, puede llegar a dar mucho fruto y mucha sombra en los lugares correctos.",
             "cuidados": "Requiere Sol, no necesita tanta agua y es resistente a sequias y a heladas no menores de -5 grados.",
             "luz": [1]
@@ -31,7 +31,7 @@
             "nombre_producto": "Torontel",
             "medidas": "1 mt",
             "precio": 8000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -43,7 +43,7 @@
             "nombre_producto": "Almendro",
             "medidas": "1,5 mts",
             "precio": 9000,
-            "foto": "./images/arbol de almendro -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol de almendro -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a medir 5 mts de alto, Una floración de las mas bonitas en primavera y da frutos en gran magnitud.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -55,7 +55,7 @@
             "nombre_producto": "Arándano",
             "medidas": "60 cms",
             "precio": 8000,
-            "foto": "./images/arbol arandanos -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol arandanos -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbusto que puede crecer en macetero o en tierra directamente, puede dar muchos frutos, sus hojas cambian de color en invierno y le dará vida a tu jardin en ese tiempo. ",
             "cuidados": "Requiere SemiSombra para darse bien, Requiere tierra ligeramente acida y resiste las heladas no mayores a -5 grados",
             "luz": [3]
@@ -67,7 +67,7 @@
             "nombre_producto": "Caqui",
             "medidas": "1,2 mts",
             "precio": 9000,
-            "foto":"./images/arbol caqui -Talagarden Vivero Santiago.jpg",
+            "foto":["./images/arbol caqui -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a medir 4 mts, se caracteriza por dar frutos en otoño cuando ningun arbol da frutos, al llegar el otoño pierde las hojas pero sus frutos quedan en el arbol dandole un toque especial a nuestro jardin.",
             "cuidados": "Requiere semiSombra y humedad para darse correctamente. ",
             "luz": [3]
@@ -79,7 +79,7 @@
             "nombre_producto": "Cerezo",
             "medidas": "1,5 mts",
             "precio": 9000,
-            "foto": "./images/arbol cerezo -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol cerezo -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a medir 4 mts de altura, su floracion es muy linda.",
             "cuidados": "",
             "luz": []
@@ -91,7 +91,7 @@
             "nombre_producto": "Ciruelo",
             "medidas": "1,8 mts",
             "precio": 9000,
-            "foto": "./images/arbol ciruelo -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol ciruelo -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración blanca en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -103,7 +103,7 @@
             "nombre_producto": "Damasco",
             "medidas": "1,5 mts",
             "precio": 9000,
-            "foto": "./images/arbol damasco -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol damasco -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -115,7 +115,7 @@
             "nombre_producto": "Durazno conservero",
             "medidas": "1 mt",
             "precio": 9000,
-            "foto": "./images/arbol durazno conservero -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol durazno conservero -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -127,7 +127,7 @@
             "nombre_producto": "Durazno Plátano",
             "medidas": "1 mt",
             "precio": 9000,
-            "foto": "./images/arbol durazno nectarino platano -Talagarden Vivero Santiago-.jpg",
+            "foto": ["./images/arbol durazno nectarino platano -Talagarden Vivero Santiago-.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -139,7 +139,7 @@
             "nombre_producto": "Feijoa",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": "./images/feijoa -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/feijoa -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -151,7 +151,7 @@
             "nombre_producto": "Granado",
             "medidas": "50 cms",
             "precio": 9000,
-            "foto": "./images/arbol granado -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol granado -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o Arbusto que puede crecer hasta 5 mts de alto, Sus frutos se dan en otoño.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -163,7 +163,7 @@
             "nombre_producto": "Higuera",
             "medidas": "40 cms",
             "precio": 9000,
-            "foto": "./images/arbol higuera -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol higuera -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a medir hasta 10 mts, Puede dar 2 tipos de frutos distintos y para dar sombra es un espectaculo.",
             "cuidados": "Requiere Sol o SemiSombra, Tambien requiere espacio a su alrededor para crecer bien, tener cuidado porque sus raices son invasivas. No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -175,7 +175,7 @@
             "nombre_producto": "Mancaqui",
             "medidas": "1,2 mts",
             "precio": 9000,
-            "foto": "./images/arbol mancaqui -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol mancaqui -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a medir 4 mts, se caracteriza por dar frutos en otoño cuando ningun arbol da frutos, al llegar el otoño pierde las hojas pero sus frutos quedan en el arbol dandole un toque especial a nuestro jardin.",
             "cuidados": "",
             "luz": []
@@ -187,7 +187,7 @@
             "nombre_producto": "Manzano Fuji",
             "medidas": "1,8 mts",
             "precio": 9000,
-            "foto": "./images/arbol manzano fuji -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol manzano fuji -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto, Una floración rosada en primavera y muchos frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -199,7 +199,7 @@
             "nombre_producto": "Maqui",
             "medidas": "1 mt",
             "precio": 10000,
-            "foto": "./images/arbol arandanos -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol arandanos -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol Nativo que puede alcanzar los 4 mts de alto. Da pequeños frutos muy saludables.",
             "cuidados": "Requiere SemiSombra para darse bien, Requiere tierra ligeramente acida y resiste las heladas no mayores a -5 grados",
             "luz": []
@@ -211,7 +211,7 @@
             "nombre_producto": "Membrillo Champion",
             "medidas": "1,7 mts",
             "precio": 9000,
-            "foto": "./images/arbol membrillo champion -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol membrillo champion -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 5 mts de alto. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -223,7 +223,7 @@
             "nombre_producto": "Níspero",
             "medidas": "50 cms",
             "precio": 9000,
-            "foto": "./images/arbol nispero -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol nispero -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 10 mts de altode crecimiento lento. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -235,7 +235,7 @@
             "nombre_producto": "Nogal",
             "medidas": "1,8 mts",
             "precio": 10000,
-            "foto": "./images/arbol nogal -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol nogal -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 7 mts de alto. Da muchos frutos en verano.",
             "cuidados": "Requiere Sol o SemiSombra, Requiere espacio para crecer y cuidado con sus raices al ser un arbol grande, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -247,7 +247,7 @@
             "nombre_producto": "Olivo",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "./images/arbol olivo -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol olivo -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o arbusto Perenne, Que puede estar en maceta, que puede crecer hasta 4 mts en tierra, son arboles que pueden vivir por cientos de años y seguir dando frutos.",
             "cuidados": "Requiere Sol, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -259,7 +259,7 @@
             "nombre_producto": "Peral",
             "medidas": "1,8 mts",
             "precio": 9000,
-            "foto": "./images/arbol peral -Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol peral -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol que puede llegar a mediar 7 mts de alto. Su floracion es Blanca y frutos asegurados en verano.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -271,7 +271,7 @@
             "nombre_producto": "Pistacho",
             "medidas": "40 cms",
             "precio": 12000,
-            "foto": "./images/arbol pistacho Talagarden Vivero Santiago.jpg",
+            "foto": ["./images/arbol pistacho Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -283,7 +283,7 @@
             "nombre_producto": "Clementino",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -295,7 +295,7 @@
             "nombre_producto": "Kumquat",
             "medidas": "60 cms",
             "precio": 15000,
-            "foto": "https://drive.google.com/drive/folders/14Kq3gs3PKhUnLldFVLZwQVktyd5VZ2UJ?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/14Kq3gs3PKhUnLldFVLZwQVktyd5VZ2UJ?usp=sharing"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos, Su fruto es de cascara dulce y al comerlo es muy rico.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -307,7 +307,7 @@
             "nombre_producto": "Limequat",
             "medidas": "60 cms",
             "precio": 15000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos, Su fruto es de cascara dulce e incluso se puede comer con cascara para los que le gustan las cosas acidas.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -319,7 +319,7 @@
             "nombre_producto": "Limón Génova",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "https://drive.google.com/drive/folders/1E2tkvDF98DNfFxkC1ZIeNPeuKIBsVX3L?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1E2tkvDF98DNfFxkC1ZIeNPeuKIBsVX3L?usp=sharing"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos. Su fruto es amarillo y siempre util en nuestra casa.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -331,7 +331,7 @@
             "nombre_producto": "Limón Sutil",
             "medidas": "60 cms",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 5 mts de alto en tierra el mejor de los casos. Su fruto es verde y mas pequeño que el limon Sutil, puede servir para coctel.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -343,7 +343,7 @@
             "nombre_producto": "Mandarino",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "https://drive.google.com/drive/folders/1NaI12ndZeV4-eiyCGn1oJgjNN4TlArpn?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1NaI12ndZeV4-eiyCGn1oJgjNN4TlArpn?usp=sharing"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -355,7 +355,7 @@
             "nombre_producto": "Mandarinquat",
             "medidas": "60 cms",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -367,7 +367,7 @@
             "nombre_producto": "Naranjo Fukumoto",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "https://drive.google.com/drive/folders/1ercpTZKVyCvn9JbQyqpGTLvKIm5K3cbY?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1ercpTZKVyCvn9JbQyqpGTLvKIm5K3cbY?usp=sharing"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 7 mts de alto en tierra el mejor de los casos. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -379,7 +379,7 @@
             "nombre_producto": "Palto Hass",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -391,7 +391,7 @@
             "nombre_producto": "Palto Negra de la Cruz",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -403,7 +403,7 @@
             "nombre_producto": "Ceibo",
             "medidas": "50 cms",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -415,7 +415,7 @@
             "nombre_producto": "Cerezo en flor (Japonés)",
             "medidas": "2 mts",
             "precio": 25000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -427,7 +427,7 @@
             "nombre_producto": "Ciruelo en flor",
             "medidas": "1,7 mts",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -439,7 +439,7 @@
             "nombre_producto": "Crespón Fucsia",
             "medidas": "70 cms",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -451,7 +451,7 @@
             "nombre_producto": "Durazno en flor (blanco o rosado)",
             "medidas": "1,3 mts",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -463,7 +463,7 @@
             "nombre_producto": "Granado en flor",
             "medidas": "50 cms",
             "precio": 9000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -475,7 +475,7 @@
             "nombre_producto": "Magnolia Grandiflora",
             "medidas": "1,2 mts",
             "precio": 15000,
-            "foto": "https://drive.google.com/drive/folders/1v4OfhSTc7pGvthb4aODavCXuKgz9osmO?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1v4OfhSTc7pGvthb4aODavCXuKgz9osmO?usp=sharing"],
             "descripcion": "Margolia es una…",
             "cuidados": "",
             "luz":[]
@@ -487,7 +487,7 @@
             "nombre_producto": "Magnolia Soulangeana",
             "medidas": "1 mt",
             "precio": 20000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -499,7 +499,7 @@
             "nombre_producto": "Acer Japónico",
             "medidas": "1,5 mts",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -511,7 +511,7 @@
             "nombre_producto": "Fresno",
             "medidas": "1,8 mts",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -523,7 +523,7 @@
             "nombre_producto": "Laurel de comer",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -535,7 +535,7 @@
             "nombre_producto": "Liquidambar",
             "medidas": "1,6 mts",
             "precio": 15000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -547,7 +547,7 @@
             "nombre_producto": "Pino Azul",
             "medidas": "40 cms",
             "precio": 10000,
-            "foto": "https://drive.google.com/drive/folders/1-fh8ncQTBUl8DdGFA4zPm1ldlxJebpvw?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1-fh8ncQTBUl8DdGFA4zPm1ldlxJebpvw?usp=sharing"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -559,7 +559,7 @@
             "nombre_producto": "Tulipero",
             "medidas": "1,6 mts",
             "precio": 15000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -571,7 +571,7 @@
             "nombre_producto": "Peumo",
             "medidas": "1,8 mts",
             "precio": 30000,
-            "foto": "https://drive.google.com/drive/folders/1F38NJz6hVQ8YlkOSIjeXP2VbE4iAoFIP?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1F38NJz6hVQ8YlkOSIjeXP2VbE4iAoFIP?usp=sharing"],
             "descripcion": "Árbol nativo puede alcanzar los 30 mts de alto, De raiz Pivotante",
             "cuidados": "Requiere Sol, puede resistir heladas y cuando es adulto resiste tiempos de sequia.",
             "luz": [1]
@@ -583,7 +583,7 @@
             "nombre_producto": "Canelo",
             "medidas": "1 mt",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -595,7 +595,7 @@
             "nombre_producto": "Belloto del Norte",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -607,7 +607,7 @@
             "nombre_producto": "Quillay",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -619,7 +619,7 @@
             "nombre_producto": "Quebracho",
             "medidas": "1 mt",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -631,7 +631,7 @@
             "nombre_producto": "Huingan",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -643,7 +643,7 @@
             "nombre_producto": "Boj ",
             "medidas": "1 mt",
             "precio": 15000,
-            "foto": "https://drive.google.com/drive/folders/1pjkPujNg2F2AJHkeJcEOe2ielMnEuakL?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1pjkPujNg2F2AJHkeJcEOe2ielMnEuakL?usp=sharing"],
             "descripcion": "Los Boj son…",
             "cuidados": "",
             "luz":[]
@@ -655,7 +655,7 @@
             "nombre_producto": "Bugambilia",
             "medidas": "80 cms",
             "precio": 12000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -667,7 +667,7 @@
             "nombre_producto": "Corona del Poeta",
             "medidas": "1 mt",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -679,7 +679,7 @@
             "nombre_producto": "Laurentina",
             "medidas": "50 cms",
             "precio": 7000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -691,7 +691,7 @@
             "nombre_producto": "Mascantha",
             "medidas": "1 mt",
             "precio": 15000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -703,7 +703,7 @@
             "nombre_producto": "Nandina",
             "medidas": "60 cms",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -715,7 +715,7 @@
             "nombre_producto": "Pitosporo Nigricans",
             "medidas": "1,8 mts",
             "precio": 10000,
-            "foto": "https://drive.google.com/drive/folders/1oTM_x6TMHCiHcl9mb4iVV7ahcs_fTbBp?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1oTM_x6TMHCiHcl9mb4iVV7ahcs_fTbBp?usp=sharing"],
             "descripcion": "Estos arbustos son…",
             "cuidados": "",
             "luz":[]
@@ -727,7 +727,7 @@
             "nombre_producto": "Camelia",
             "medidas": "1 mt",
             "precio": 25000,
-            "foto": "https://drive.google.com/drive/folders/1bFwqG2hqPPoyqeILyW3uQmyPNgNjPqsc?usp=sharing",
+            "foto": ["https://drive.google.com/drive/folders/1bFwqG2hqPPoyqeILyW3uQmyPNgNjPqsc?usp=sharing"],
             "descripcion": "Las hermosas Camelias…",
             "cuidados": "",
             "luz":[]
@@ -739,7 +739,7 @@
             "nombre_producto": "Ficus Lyrata",
             "medidas": "20 cms",
             "precio": 15000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -751,7 +751,7 @@
             "nombre_producto": "Flor del Pájaro",
             "medidas": "30 cms",
             "precio": 6000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -763,7 +763,7 @@
             "nombre_producto": "Hortensia",
             "medidas": "30 cms",
             "precio": 8000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -775,7 +775,7 @@
             "nombre_producto": "Monstera",
             "medidas": "30 cms",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -787,7 +787,7 @@
             "nombre_producto": "Palmera de interior",
             "medidas": "30 cms",
             "precio": 10000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -799,7 +799,7 @@
             "nombre_producto": "Sansevieria",
             "medidas": "20 cms",
             "precio": 15000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -811,7 +811,7 @@
             "nombre_producto": "Rosa Botonera",
             "medidas": "50 cms",
             "precio": 7000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -823,7 +823,7 @@
             "nombre_producto": "Rosa Trepdora",
             "medidas": "50 cms",
             "precio": 8000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -835,7 +835,7 @@
             "nombre_producto": "Cactus varios",
             "medidas": "20 cms",
             "precio": 5000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -847,7 +847,7 @@
             "nombre_producto": "Cerebro",
             "medidas": "20 cms",
             "precio": 5000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -859,7 +859,7 @@
             "nombre_producto": "Orejas de Conejo",
             "medidas": "20 cms",
             "precio": 5000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -871,7 +871,7 @@
             "nombre_producto": "Hummus líquido",
             "medidas": "1,5 lt",
             "precio": 3500,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -883,7 +883,7 @@
             "nombre_producto": "Quelato de Hierro",
             "medidas": "50 grs",
             "precio": 4000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -895,7 +895,7 @@
             "nombre_producto": "Saco 4 Tierras",
             "medidas": "25 kg",
             "precio": 5000,
-            "foto": "",
+            "foto": [""],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
