@@ -1,5 +1,5 @@
 // getting id_categoria para frutales
- const getFrutalesPg1 = async()=>{
+const getFrutalesPg1 = async()=>{
 
     try{
         const resFrut = await axios('./src/catalog.json'); 
@@ -54,6 +54,7 @@
                 //console.log(pPic); 
                 //console.log(pPrice); 
                 //console.log(pHeight);
+                
 
                 nombre_producto = producto.nombre_producto;
                 precio = producto.precio;
@@ -73,8 +74,9 @@
                 
                 //iterates to keep on going through the page
                 i++;
-                
+                //export{producto}
                 console.log(nombre_producto,precio,medidas,foto); 
+                
 
             });
         
