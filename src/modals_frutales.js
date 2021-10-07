@@ -11,19 +11,15 @@ console.log(openModalButtons);
  openModalButtons.forEach(button =>{
     button.addEventListener('click',()=>{
         const modal = document.querySelector(button.dataset.modalTarget);
-        
-        console.log(button);
+        //console.log(button);
         //gets the name of the product bringing it from the HTML content
         const prodName = button.childNodes[3].childNodes[1].textContent;
         console.log(modal);
         console.log(prodName);
-        openModal(modal);
+        openModal(modal,prodName);
     })
 }) 
 
-/* getProdName.forEach(name =>{
-    name
-}) */
 overlay.addEventListener('click',()=>{
     const modals = document.querySelectorAll('.modal.active');
     console.log(modals);
@@ -42,11 +38,18 @@ closeModalButtons.forEach(button =>{
 
 
 //functions
-function openModal(modal){
+function openModal(modal,prodName){
     console.log(modal);
+    //console.log(prodName);
     if(modal === null) return
     modal.classList.add('active');
     overlay.classList.add('active');
+    //Llamando elementos del DOM
+    //modal.modal-body.modal-title (esa es la ruta que llamo aqui)
+    const mTitle = modal.children[1].childNodes[1];
+    //console.log(mTitle);
+    //Assigning dynamic title to modal
+    mTitle.textContent = `${prodName}`; 
     
 }
  
