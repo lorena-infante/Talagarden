@@ -117,21 +117,44 @@ function setModalContent(modal,nombre_producto,foto,descripcion,cuidados,luz){
     for(let i = 0; i < luzLength; i++) {
          imgLight = document.createElement("img");
          console.log(imgLight);
-        /* const p = document.createElement("p");
-        p.textContent = luz[i];
-        console.log(p); */
-        imgLight.src = './icons/sol.png';
+         console.log(mLight);    
+        
         //console.log(img.src);
         //let lightingClass = document.getElementsByClassName("lighting");
         //console.log(lightingClass);
                   
         mLight.appendChild(imgLight);
         //console.log(mLight);  
-        //const onClose = (mLight)=>{closeModal(modal,mLight)};
-        
-        
+ 
     } 
-    //let onClose = closeModal(modal, mLight);
+     //classifing luz into categories
+     //sol=1 sombra=2 semisombra=3
+     switch(luz.includes(3)) {
+        //sol=1 sombra=2 semisombra=3
+        case luz.includes(1&&3):
+            //(aquí van las img del lighting)#modal > div:nth-child(2) > div:nth-child(4) > div:nth-child(6) > img:nth-child(1)
+            mLight.children[0].src = './icons/sol.png';
+            mLight.children[1].src = './icons/semi-sombra.png';
+            //console.log(imgLight.src)
+        break; 
+        case luz.includes(1):
+            imgLight.src = './icons/sol.png';
+            console.log(imgLight.src)
+        break;
+        case luz.includes(2):
+            imgLight.src = './icons/sombra.png';
+            console.log(imgLight.src)
+        break;
+        case luz.includes(3):
+            imgLight.src = './icons/semi-sombra.png';
+            console.log(imgLight.src)
+        break;
+        //sujeto a cambios
+        default:
+            console.log(imgLight.src)
+        //  imgLight.src = './icons/sol.png'; 
+    }
+    
     
 }
 function closeModal(modal,mLight){
