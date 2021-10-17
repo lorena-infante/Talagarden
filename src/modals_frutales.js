@@ -3,7 +3,8 @@ const closeModalButtons = document.querySelectorAll('[data-close-button]');
 //const getProdName = document.querySelectorAll('[data-name-prod]');
 
 const overlay = document.getElementById('overlay');
-
+let mLight;
+let imgLight;
 console.log(openModalButtons);
 
 //Event Listeners
@@ -11,7 +12,7 @@ console.log(openModalButtons);
  openModalButtons.forEach(button =>{
     button.addEventListener('click',()=>{
         const modal = document.querySelector(button.dataset.modalTarget);
-        //console.log(button);
+        console.log(button);
         //gets the name of the product bringing it from the HTML content
         const prodName = button.childNodes[3].childNodes[1].textContent;
         console.log(modal);
@@ -24,7 +25,7 @@ overlay.addEventListener('click',()=>{
     const modals = document.querySelectorAll('.modal.active');
     console.log(modals);
     modals.forEach((modal)=>{
-        closeModal(modal);
+        closeModal(modal,mLight);
     })
 })
 
@@ -32,7 +33,7 @@ closeModalButtons.forEach(button =>{
     button.addEventListener('click',()=>{
         const modal = button.closest('.modal');
         console.log(modal);
-       closeModal(modal);
+        closeModal(modal,mLight);
     })
 }) 
 
@@ -93,7 +94,7 @@ function setModalContent(modal,nombre_producto,foto,descripcion,cuidados,luz){
     /*#modal > div:nth-child(2) > div:nth-child(4) > p:nth-child(4) */
     const mCares = modal.children[1].children[3].children[3];
     /*#modal > div:nth-child(2) > div:nth-child(4) > div:nth-child(6)*/
-    const mLight = modal.children[1].children[3].children[5];
+    mLight = modal.children[1].children[3].children[5];
 
     console.log(mLight);
 
@@ -108,12 +109,36 @@ function setModalContent(modal,nombre_producto,foto,descripcion,cuidados,luz){
     mSliderCont.src = `${foto}`; 
     mDescrip.textContent = `${descripcion}`;
     mCares.textContent = `${cuidados}`;
-
-}
-function closeModal(modal){
+    let luzLength = luz.length;
+    console.log(luz);
+    console.log("el length de la luz: " + luzLength);
+                
+    //creates same amount of img elements inside lighting box as luzLength
+    for(let i = 0; i < luzLength; i++) {
+         imgLight = document.createElement("img");
+         console.log(imgLight);
+        /* const p = document.createElement("p");
+        p.textContent = luz[i];
+        console.log(p); */
+        imgLight.src = './icons/sol.png';
+        //console.log(img.src);
+        //let lightingClass = document.getElementsByClassName("lighting");
+        //console.log(lightingClass);
+                  
+        mLight.appendChild(imgLight);
+        //console.log(mLight);  
+        //const onClose = (mLight)=>{closeModal(modal,mLight)};
+        
+        
+    } 
+    //let onClose = closeModal(modal, mLight);
     
+}
+function closeModal(modal,mLight){
+    //console.log(mLight);
     if(modal === null) return
     modal.classList.remove('active');
     overlay.classList.remove('active');
+    mLight.innerHTML="";
 
 }
