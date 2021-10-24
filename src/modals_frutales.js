@@ -86,6 +86,8 @@ function setModalContent(modal,nombre_producto,foto,descripcion,cuidados,luz){
     //Llamando elementos del DOM
     //#modal > div:nth-child(2) > div:nth-child(1)
     const mTitle = modal.children[1].childNodes[1];
+    //#modal > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) ubica el slider del primer objeto para ponerle la img
+    const mSliderCont1 = modal.children[1].children[1].children[0].children[1].children[0].children[0].children[0]
     //#modal > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > img:nth-child(1)
     const mSliderCont = modal.children[1].children[1].children[0].children[1].children[0].children[0]
     /* solo funciona para el almendro modal.children[1].children[1].children[0].children[1].children[0].children[0].children[0]; */
@@ -97,25 +99,47 @@ function setModalContent(modal,nombre_producto,foto,descripcion,cuidados,luz){
     mLight = modal.children[1].children[3].children[5];
 
     console.log(mLight);
-
+ 
 
     //let newImg= new Image();
     //newImg.src = `${foto}`;
     console.log(mSliderCont)
+    console.log(mSliderCont1)
     //console.log(mTitle);
     //Assigning dynamic titles & content to modal
     mTitle.textContent = `${nombre_producto}`; 
     console.log(foto[0]);
-    mSliderCont.src = `${foto}`; 
+    //mSliderCont1.src = `${foto}`;
+    //mSliderCont.src = `${foto}`; 
     mDescrip.textContent = `${descripcion}`;
     mCares.textContent = `${cuidados}`;
     let luzLength = luz.length;
     console.log(luz);
     console.log("el length de la luz: " + luzLength);
-                
+    // handler para cuando explota sliderCont1,que ignore que sea undefined y siga pintando en la pantalla los datos que se traen cuando mSliderCont está funcionando
+    if(mSliderCont1 === undefined){
+        mSliderCont.src = `${foto}`;
+        mDescrip.textContent = `${descripcion}`;
+        mCares.textContent = `${cuidados}`;
+        let luzLength = luz.length;
+        console.log(luz);
+        console.log("el length de la luz: " + luzLength);
+    }else{
+        mSliderCont1.src = `${foto}`;
+    }
     //creates same amount of img elements inside lighting box as luzLength
     for(let i = 0; i < luzLength; i++) {
          imgLight = document.createElement("img");
+         if((luz[i]===1)){
+            imgLight.src = './icons/sol.png';
+         }
+         if((luz[i]===2)){
+            imgLight.src = './icons/sombra.png';
+         }
+         if((luz[i]===3)){
+            imgLight.src = './icons/semi-sombra.png';
+         }
+
          console.log(imgLight);
          console.log(mLight);    
         
@@ -124,19 +148,34 @@ function setModalContent(modal,nombre_producto,foto,descripcion,cuidados,luz){
         //console.log(lightingClass);
                   
         mLight.appendChild(imgLight);
+
         //console.log(mLight);  
  
     } 
      //classifing luz into categories
+     /* if (mLight.children[1] === undefined){
+         console.log("esta vaina es undefined")} */
+        /* if(luz.includes(1)){
+            imgLight.src = './icons/sol.png';
+        }
+        if(luz.includes(2)){
+            imgLight.src = './icons/sombra.png';
+        }
+        if(luz.includes(3)){
+            imgLight.src = './icons/semi-sombra.png';
+        } */
+        
+
      //sol=1 sombra=2 semisombra=3
-     switch(luz.includes(3)) {
+    /*  switch(luz) {
         //sol=1 sombra=2 semisombra=3
         case luz.includes(1&&3):
             //(aquí van las img del lighting)#modal > div:nth-child(2) > div:nth-child(4) > div:nth-child(6) > img:nth-child(1)
             mLight.children[0].src = './icons/sol.png';
             mLight.children[1].src = './icons/semi-sombra.png';
             //console.log(imgLight.src)
-        break; 
+        break;       
+        
         case luz.includes(1):
             imgLight.src = './icons/sol.png';
             console.log(imgLight.src)
@@ -153,7 +192,8 @@ function setModalContent(modal,nombre_producto,foto,descripcion,cuidados,luz){
         default:
             console.log(imgLight.src)
         //  imgLight.src = './icons/sol.png'; 
-    }
+    } */
+                
     
     
 }
