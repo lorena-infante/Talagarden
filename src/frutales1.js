@@ -193,7 +193,7 @@ document.addEventListener('click', e =>{
     const isDivGTL = e.target.matches('[data-order-GTL]');
     const divGTL = document.querySelectorAll('[data-order-GTL]');
 
-    console.log(isDivGTL);
+    //console.log(isDivGTL);
     if(isDivDefault){
        orderByDefault();
     }

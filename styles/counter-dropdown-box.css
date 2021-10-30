@@ -17,7 +17,7 @@
   background-color: white;
   padding:.25rem;
   border-radius:.25rem;
-  box-shadow: 0 3px 4px 0 rgb(0 0 0 / 15%);
+  box-shadow: 3px 3px 4px 3px rgb(0 0 0 / 15%);
   opacity:0;
   pointer-events: none;
   transform: translateY(-10px);
@@ -44,6 +44,21 @@
   gap: 5px;
 }
 
+.link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background-color: white;
+  font: bold 16px var(--fontBase);
+  display: flex;
+  align-items: center;
+  border-radius: 8;
+  color: #132A13;
+  }
+  .fa-chevron-down {
+    padding-top: 2px;
+    }
 
 /* .dropbtn {
   color: var(--verdeOscuro);
