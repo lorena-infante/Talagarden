@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="icon" type="image/png" href="./icons/tala_icon24x24-01.png"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+   
     
     
     <title>Árboles Frutales Talagarden</title>
@@ -65,17 +66,36 @@
         <div class="counter">
             <p>counter</p>
         </div>
-        <div class="dropdown-mobile-box">
+        <!-- <div class="dropdown-mobile-box"> -->
             <!-- <button onclick="myFunction()" class="dropbtn">Ordenar por <img src="./icons/filtro-icon-Talagarden.svg.svg" alt="filtro-icono-Talagarden Vivero Santiago">
             </button> -->
-            <label for="products">Ordenar por precio:</label>
+
+           <!--  <label for="products">Ordenar por precio:</label>
             <select name="products" id="products">
-                  <option onclick="orderByDefault()" value="default">Por defecto</option>
+          <option class="default" onClick="orderByDefault()" value="default">
+                  Por defecto</option>
                   <option onClick="orderLessToGreat()" value="less_to_greater">De menor a mayor</option>
                   <option onClick="orderGreatToLess()" value="greater_to_less">De mayor a menor</option>
-            </select>
+            </select> -->
+
+            <!--***************************************************************************************************************************************************************-->
+            <div class="dropdown" data-dropdown>
+                <button class="link" data-dropdown-button>Ordenar</button>
+                <div class="dropdown-menu order-by">
+                  <div>
+                      <div class="dropdown-funct">
+                          <div class="order">Por defecto</div>
+                          <div class="order">De menor a mayor</div>
+                          <div class="order">De mayor a menor</div>
+                      </div>
+                  </div>
+                
+                
+                </div>
+              </div>
+              <!--***************************************************************************************************************************************************************-->
         
-        </div>
+        <!-- </div> -->
    
     </section> <!--fin de counter-dropdown-->
     <section class="frutales-container">
@@ -763,6 +783,7 @@
     <script src="./src/frutales1.js"></script>
     <script src="./src/modals_frutales.js"></script>
     <script src="./src/glider.js"></script>
+
 </body>
 
 </html>
