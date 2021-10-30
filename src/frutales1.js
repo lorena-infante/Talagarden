@@ -174,7 +174,7 @@ const orderByDefault = async()=>{
 // para ordenar los productos (que los lea en chrome)
 document.addEventListener('click', e =>{
     const isDropdownButton = e.target.matches("[data-dropdown-button]");
-    if(!isDropdownButton && e.target.closest('[data-dropdown]') != null) return
+    //if(!isDropdownButton && e.target.closest('[data-dropdown]') != null) return
     let currentDropdown;
     if (isDropdownButton){
         currentDropdown = e.target.closest('[data-dropdown]');
@@ -185,8 +185,28 @@ document.addEventListener('click', e =>{
         if (dropdown === currentDropdown) return
         dropdown.classList.remove('active');
     })
+    //probando
+    const isDivDefault = e.target.matches('[data-order-default]');
+    const divDefault = document.querySelectorAll('[data-order-default]');
+    const isDivLTG = e.target.matches('[data-order-LTG]');
+    const divLTG = document.querySelectorAll('[data-order-LTG]');
+    const isDivGTL = e.target.matches('[data-order-GTL]');
+    const divGTL = document.querySelectorAll('[data-order-GTL]');
+
+    console.log(isDivGTL);
+    if(isDivDefault){
+       orderByDefault();
+    }
+    if(isDivLTG){
+        orderLessToGreat();
+    }
+    if(isDivGTL){
+        orderGreatToLess()
+    }
 
 })
+
+
 
 //
 
