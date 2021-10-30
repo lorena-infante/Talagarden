@@ -1,12 +1,19 @@
 .banner-frutales-img {
     position: relative;
     display: flex;
+    
 }
+.banner-frutales-img > img:nth-child(1) {
+    height: 300px;
+    object-fit: cover;
+   }
+   
 
 .text-box-title-frutales {
     position: absolute;
     background-color: rgba(255,255,255,0.8);
-    bottom: 45%;
+    /*bottom: 45%;*/
+    top:35%;
     width: 100%;
     text-align: center;
     padding-block: 20px;
@@ -22,7 +29,7 @@
         position: relative;
        }
        .text-box-title-frutales {
-            bottom: 8%;
+            top: 50%;
        }
        .text-box-title-frutales > h1:nth-child(1) {
             position: relative;

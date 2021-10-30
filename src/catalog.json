@@ -7,7 +7,7 @@
             "nombre_producto": "Moscatel ",
             "medidas": "1 mt",
             "precio": 8000,
-            "foto": [""],
+            "foto": ["./images/Parras Moscatel -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Enredadera de crecimiento rapido, puede llegar a dar mucho fruto y mucha sombra en los lugares correctos.",
             "cuidados": "Requiere Sol, no necesita tanta agua y es resistente a sequias y a heladas no menores de -5 grados.",
             "luz": [1]
@@ -19,7 +19,7 @@
             "nombre_producto": "Sultanina ",
             "medidas": "1 mt",
             "precio": 8000,
-            "foto": [""],
+            "foto": ["./images/Parras Sultanina -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Enredadera de crecimiento rapido, puede llegar a dar mucho fruto y mucha sombra en los lugares correctos.",
             "cuidados": "Requiere Sol, no necesita tanta agua y es resistente a sequias y a heladas no menores de -5 grados.",
             "luz": [1]
@@ -31,7 +31,7 @@
             "nombre_producto": "Torontel",
             "medidas": "1 mt",
             "precio": 8000,
-            "foto": [""],
+            "foto": ["./images/Parras Torontel-Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz": []
