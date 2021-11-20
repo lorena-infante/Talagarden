@@ -13,19 +13,21 @@
        }
 
 
-    .available-products > p {
+    .available-products > a {
         text-decoration: none;
         color: var(--sapGreen);
         font: var(--fontSecond);
+        padding: 3px 0px;
+        margin: 8px 0px;
         /*font-size: smaller;*/
     }
   
 /*Hover*/
-    .available-products > p:hover {
+    .available-products > a:hover {
     background-color: var(--sapGreen);
     }
   
-    .available-products > p:hover {
+    .available-products > a:hover {
     color: var(--white);
     cursor:pointer;
     }

@@ -105,12 +105,12 @@ p:nth-child(1) {
         width:60%;
         /*! justify-content: ; */
         /*! align-content: first baseline; */
-        height: 100%;
+        /* height: 100%; */
        }
        .box-frutales img{
             width: 100%;
             display: flex;
-            height: auto;
+            /* height: auto; */
         }
 
         
