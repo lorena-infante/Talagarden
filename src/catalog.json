@@ -283,7 +283,7 @@
             "nombre_producto": "Clementino",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": [""],
+            "foto": ["./images/Citricos Clementino  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -295,7 +295,7 @@
             "nombre_producto": "Kumquat",
             "medidas": "60 cms",
             "precio": 15000,
-            "foto": ["https://drive.google.com/drive/folders/14Kq3gs3PKhUnLldFVLZwQVktyd5VZ2UJ?usp=sharing"],
+            "foto": ["./images/Kumquat-Talagarden Vivero Santiago.JPG"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos, Su fruto es de cascara dulce y al comerlo es muy rico.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -307,7 +307,7 @@
             "nombre_producto": "Limequat",
             "medidas": "60 cms",
             "precio": 15000,
-            "foto": [""],
+            "foto": ["./images/Citricos Limequat  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos, Su fruto es de cascara dulce e incluso se puede comer con cascara para los que le gustan las cosas acidas.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -319,7 +319,7 @@
             "nombre_producto": "Limón Génova",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": ["https://drive.google.com/drive/folders/1E2tkvDF98DNfFxkC1ZIeNPeuKIBsVX3L?usp=sharing"],
+            "foto": ["./images/Citricos Limon Genova-Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 10 mts de alto en tierra el mejor de los casos. Su fruto es amarillo y siempre util en nuestra casa.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -331,7 +331,7 @@
             "nombre_producto": "Limón Sutil",
             "medidas": "60 cms",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/Citricos Limon Sutil  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 5 mts de alto en tierra el mejor de los casos. Su fruto es verde y mas pequeño que el limon Sutil, puede servir para coctel.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -343,7 +343,7 @@
             "nombre_producto": "Mandarino",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": ["https://drive.google.com/drive/folders/1NaI12ndZeV4-eiyCGn1oJgjNN4TlArpn?usp=sharing"],
+            "foto": ["./images/Citricos Mandarino  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -355,7 +355,7 @@
             "nombre_producto": "Mandarinquat",
             "medidas": "60 cms",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Mandarinquat-Talagarden Vivero Santiago.jpg"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 3 mts de alto en tierra.",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
@@ -367,7 +367,7 @@
             "nombre_producto": "Naranjo Fukumoto",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": ["https://drive.google.com/drive/folders/1ercpTZKVyCvn9JbQyqpGTLvKIm5K3cbY?usp=sharing"],
+            "foto": ["./images/Naranjo Fukumoto -Talagarden Vivero Santiago.JPG"],
             "descripcion": "Arbol o Arbusto Perenne, Que puede estar en maceta, puede crecer hasta los 7 mts de alto en tierra el mejor de los casos. ",
             "cuidados": "Requiere Sol o SemiSombra, No necesita tanta agua y resiste heladas no menores de -5 grados.",
             "luz": [1, 3]
