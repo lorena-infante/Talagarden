@@ -811,7 +811,7 @@
             "nombre_producto": "Rosa Botonera",
             "medidas": "50 cms",
             "precio": 7000,
-            "foto": [""],
+            "foto": ["./images/Rosas Rosa Botonera -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -823,7 +823,7 @@
             "nombre_producto": "Rosa Trepdora",
             "medidas": "50 cms",
             "precio": 8000,
-            "foto": [""],
+            "foto": ["./images/Rosas Rosa Trepadora -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -835,7 +835,7 @@
             "nombre_producto": "Cactus varios",
             "medidas": "20 cms",
             "precio": 5000,
-            "foto": [""],
+            "foto": ["./images/Cactus Varios -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -847,7 +847,7 @@
             "nombre_producto": "Cerebro",
             "medidas": "20 cms",
             "precio": 5000,
-            "foto": [""],
+            "foto": ["./images/Cactus Cerebro -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -859,7 +859,7 @@
             "nombre_producto": "Orejas de Conejo",
             "medidas": "20 cms",
             "precio": 5000,
-            "foto": [""],
+            "foto": ["./images/Cactus Orejas de Conejo -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
