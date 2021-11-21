@@ -727,7 +727,7 @@
             "nombre_producto": "Camelia",
             "medidas": "1 mt",
             "precio": 25000,
-            "foto": ["https://drive.google.com/drive/folders/1bFwqG2hqPPoyqeILyW3uQmyPNgNjPqsc?usp=sharing"],
+            "foto": ["./images/Camelia -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Las hermosas Camelias…",
             "cuidados": "",
             "luz":[]
@@ -739,7 +739,7 @@
             "nombre_producto": "Ficus Lyrata",
             "medidas": "20 cms",
             "precio": 15000,
-            "foto": [""],
+            "foto": ["./images/Plantas Ficus Lyrata  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -751,7 +751,7 @@
             "nombre_producto": "Flor del Pájaro",
             "medidas": "30 cms",
             "precio": 6000,
-            "foto": [""],
+            "foto": ["./images/Plantas Flor del Pajaro  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -763,7 +763,7 @@
             "nombre_producto": "Hortensia",
             "medidas": "30 cms",
             "precio": 8000,
-            "foto": [""],
+            "foto": ["images/Plantas Hortensia  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -775,7 +775,7 @@
             "nombre_producto": "Monstera",
             "medidas": "30 cms",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/Plantas Monstera  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -787,7 +787,7 @@
             "nombre_producto": "Palmera de interior",
             "medidas": "30 cms",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/Plantas Palmera Interior  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -799,7 +799,7 @@
             "nombre_producto": "Sansevieria",
             "medidas": "20 cms",
             "precio": 15000,
-            "foto": [""],
+            "foto": ["./images/Plantas Sansevieria  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
