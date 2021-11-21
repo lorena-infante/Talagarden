@@ -871,7 +871,7 @@
             "nombre_producto": "Hummus líquido",
             "medidas": "1,5 lt",
             "precio": 3500,
-            "foto": [""],
+            "foto": ["./images/Abonos Hummus Liquido -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -883,7 +883,7 @@
             "nombre_producto": "Quelato de Hierro",
             "medidas": "50 grs",
             "precio": 4000,
-            "foto": [""],
+            "foto": ["./images/Abonos Quelato de Hierro -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -895,7 +895,7 @@
             "nombre_producto": "Saco 4 Tierras",
             "medidas": "25 kg",
             "precio": 5000,
-            "foto": [""],
+            "foto": ["./images/Abonos Saco 4 Tierras -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
