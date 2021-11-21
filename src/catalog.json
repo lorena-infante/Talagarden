@@ -403,7 +403,7 @@
             "nombre_producto": "Ceibo",
             "medidas": "50 cms",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/En Flor Ceibo  -Talagarden Vivero.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -415,7 +415,7 @@
             "nombre_producto": "Cerezo en flor (Japonés)",
             "medidas": "2 mts",
             "precio": 25000,
-            "foto": [""],
+            "foto": ["./images/En Flor Cerezo en flor Japones  -Talagarden Vivero.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -427,7 +427,7 @@
             "nombre_producto": "Ciruelo en flor",
             "medidas": "1,7 mts",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/En Flor Ciruelo en flor  -Talagarden Vivero.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -439,7 +439,7 @@
             "nombre_producto": "Crespón Fucsia",
             "medidas": "70 cms",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/En Flor Crespon fucsia  -Talagarden Vivero.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -451,7 +451,7 @@
             "nombre_producto": "Durazno en flor (blanco o rosado)",
             "medidas": "1,3 mts",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/En Flor Durazno en flor  -Talagarden Vivero.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -463,7 +463,7 @@
             "nombre_producto": "Granado en flor",
             "medidas": "50 cms",
             "precio": 9000,
-            "foto": [""],
+            "foto": ["./images/En Flor Granado en flor  -Talagarden Vivero.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -475,7 +475,7 @@
             "nombre_producto": "Magnolia Grandiflora",
             "medidas": "1,2 mts",
             "precio": 15000,
-            "foto": ["https://drive.google.com/drive/folders/1v4OfhSTc7pGvthb4aODavCXuKgz9osmO?usp=sharing"],
+            "foto": ["./images/Magnolia Grandiflora - Talagarden Vivero Santiago.jpg"],
             "descripcion": "Margolia es una…",
             "cuidados": "",
             "luz":[]
@@ -487,7 +487,7 @@
             "nombre_producto": "Magnolia Soulangeana",
             "medidas": "1 mt",
             "precio": 20000,
-            "foto": [""],
+            "foto": ["./images/En Flor Magnolia Soulangeana  -Talagarden Vivero.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
