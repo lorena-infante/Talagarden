@@ -643,7 +643,7 @@
             "nombre_producto": "Boj ",
             "medidas": "1 mt",
             "precio": 15000,
-            "foto": ["https://drive.google.com/drive/folders/1pjkPujNg2F2AJHkeJcEOe2ielMnEuakL?usp=sharing"],
+            "foto": ["./images/arbusto-horizontal.jpg"],
             "descripcion": "Los Boj son…",
             "cuidados": "",
             "luz":[]
@@ -655,7 +655,7 @@
             "nombre_producto": "Bugambilia",
             "medidas": "80 cms",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Arbustos Bugambilia  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -667,7 +667,7 @@
             "nombre_producto": "Corona del Poeta",
             "medidas": "1 mt",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/Arbustos Corona de Poeta  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -679,7 +679,7 @@
             "nombre_producto": "Laurentina",
             "medidas": "50 cms",
             "precio": 7000,
-            "foto": [""],
+            "foto": ["./images/Arbustos Laurentina  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -691,7 +691,7 @@
             "nombre_producto": "Mascantha",
             "medidas": "1 mt",
             "precio": 15000,
-            "foto": [""],
+            "foto": ["./images/Arbustos Mascantha  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -703,7 +703,7 @@
             "nombre_producto": "Nandina",
             "medidas": "60 cms",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/Arbustos Nandina  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -715,7 +715,7 @@
             "nombre_producto": "Pitosporo Nigricans",
             "medidas": "1,8 mts",
             "precio": 10000,
-            "foto": ["https://drive.google.com/drive/folders/1oTM_x6TMHCiHcl9mb4iVV7ahcs_fTbBp?usp=sharing"],
+            "foto": ["./images/Arbustos Pitosporo Nigricans  -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Estos arbustos son…",
             "cuidados": "",
             "luz":[]
