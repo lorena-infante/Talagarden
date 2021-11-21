@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es-la">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="icon" type="image/png" href="./icons/tala_icon24x24-01.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+   
+    
+    
+    <title>Varios Talagarden</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <a href="./index.html"><img src="/images/final-sinFondo-Tala-09.png" width="200px" alt="Logo Talagarden"></a>
+
+                <nav aria-label="main-navigation"
+                class="menu">
+                <ul>
+                    <li>
+                        <a class="is-active" href="./index.html">Bienvenido
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="./catalog.html">Catálogo
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Acerca de nosotros
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="#">Contáctanos
+                        </a>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+        </div>
+    
+    </header>
+
+    <section class="catalog-banner"> 
+        <div class="wrapper-frutales-banner">
+            <div class="banner-frutales-img">
+                    <img src="./images/Varios cover -Talagarden Vivero Santiago.jpg" alt="banner-img" width="100%">
+            </div>
+            <div class="text-box-title-frutales">
+                <h1>Varios</h1>
+            </div>
+            
+        </div> <!--Fin wrapper-banner-->
+
+    </section> <!--fin de catalog-banner-->
+
+
+    <section class="counter-dropdown-box">
+        <div class="counter">
+            <p>counter</p>
+        </div>
+ 
+            <!--***************************************************************************************************************************************************************-->
+            <div class="dropdown" data-dropdown>
+                <button class="link" data-dropdown-button>Ordenar
+                    <i class="fas fa-chevron-down" data-dropdown-button></i>
+                </button>
+                <div class="dropdown-menu order-by">
+                  <div>
+                      <div class="dropdown-funct">
+                          <div class="order" data-order-default >Por defecto</div>
+                          <div id="order2" class="order" data-order-LTG>De menor a mayor</div>
+                          <div id="order3" class="order" data-order-GTL>De mayor a menor</div>
+                      </div>
+                  </div>
+                
+                
+                </div>
+              </div>
+              <!--***************************************************************************************************************************************************************-->
+        
+       
+   
+    </section> <!--fin de counter-dropdown-->
+    <section class="frutales-container">
+        <aside class="available-products">
+            <h3>También disponibles</h3>
+            <a href="./frutales.html">Frutales</a>
+            <a href="./parras.html">Parras</a>
+            <a href="./paltos.html">Paltos</a>
+            <a href="./citricos.html">Cítricos</a>
+            <a href="./arbustos.html">Arbustos</a>
+            <a href="./varios.html">Varios</a>
+            <a href="./plantas.html">Plantas</a>
+            <a href="./rosas.html">Rosas</a>
+            <a href="./cactus.html">Cáctus</a>
+            <a href="./nativos.html">Nativos</a>
+            <a href="./abonos.html">Abonos</a>
+        </aside> <!--fin available products-->
+        <div class="boxes-frutales-container">
+           <div class="frutales1-2">
+               <div class="box-frutales">
+                <a id="open-modal-link" data-modal-target="#modal" >
+                    <img class="img-frutal"  alt="foto parra Talagarden vivero de arboles chile">
+                    <div class="text-container-frutal">
+                        <p data-name-prod>undefined</p>
+                        <p >$0</p>
+                        <p >mts</p>
+                    </div>
+                </a>
+               </div>
+               <!-- modal -->
+               <div class="modal" id="modal">
+                   <div class="modal-header"></div>
+                   <div class="modal-body">
+                       <div class="modal-title">Nombre</div>
+                       <div class="slider">
+                           <div class="div__slider_container">
+                               <button aria-label="Anterior" class="slider__prev">
+                                <i class="fas fa-chevron-left"></i>
+                               </button>
+                               <div class="slider__list">
+                                   <div class="slider__item">
+                                       <img class="" alt="slider árboles">
+                                   </div>
+                               </div>
+                               <button aria-label="Siguiente" class="slider__next">
+                                <i class="fas fa-chevron-right"></i>
+                               </button>
+                           </div>
+                           
+                       </div> <!-- end of slider -->
+
+                       <div role="tablist" class="slider__indicators">
+
+                       </div>
+                       <div class="texts-container">
+
+                           <div class="descript-title">Descripción</div>
+                           <p class="modal-descript">
+                            
+                           </p>
+                           <div class="cares-title">Cuidados</div>
+                           <p class="cares-descript">
+                            
+                           </p>
+                           <div class="light-title">Iluminación                 </div>
+                           <div class="lighting">
+                               
+                            </div>
+                       </div> <!-- end of texts-container -->
+                   </div>
+                   <div class="modal-footer">
+                    <button data-close-button class="close-button">Cerrar</button>
+                   </div> 
+               </div><!-- end of modal1 -->
+               <!-- Overlay for whole page to be in grey while modal is open -->
+               <div id="overlay"></div>
+               <div class="box-frutales">
+                    <a id="open-modal-link" data-modal-target="#modal2" >                  
+                        <img class="img-frutal" src="" alt="foto árbol arándano Talagarden vivero de arboles chile">
+                        <div class="text-container-frutal">
+                            <p data-name-prod>undefined</p>
+                            <p >$0</p>
+                            <p >mts</p>
+                        </div>
+                    </a>
+               </div>
+               <!-- modal -->
+               <div class="modal" id="modal2">
+                <div class="modal-header"></div>
+                <div class="modal-body">
+                    <div class="modal-title">Nombre</div>
+                    <div class="slider">
+                        <div class="div__slider_container">
+                            <button aria-label="Anterior" class="slider__prev">
+                             <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider__list">
+                                <div class="slider__item glider-slide active center visible">
+                                    <img class="" src="" alt="slider árboles">
+                                </div>
+                            </div>
+                            <button aria-label="Siguiente" class="slider__next">
+                             <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        
+                    </div> <!-- end of slider -->
+
+                    <div role="tablist" class="slider__indicators">
+                        <button data-index="0" aria-label="Page 1" class="glider-dot active"></button>
+                    </div>
+                    <div class="texts-container">
+
+                        <div class="descript-title">Descripción</div>
+                        <p class="modal-descript">
+                         
+                        </p>
+                        <div class="cares-title">Cuidados</div>
+                        <p class="cares-descript">
+                         
+                        </p>
+                        <div class="light-title">Iluminación</div>
+                        <div class="lighting">
+                            
+                         </div>
+                    </div> <!-- end of texts-container -->
+                </div>
+                <div class="modal-footer">
+                 <button data-close-button class="close-button">Cerrar</button>
+                </div> 
+            </div><!-- end of modal1 -->
+            <!-- Overlay for whole page to be in grey while modal is open -->
+            <div id="overlay" class="overlay" ></div>
+           </div><!--end frutales 1-2-->
+           <div class="frutales3-4">
+            <div class="box-frutales">
+             <a id="open-modal-link" data-modal-target="#modal3">
+                 <img class="img-frutal" src="" alt="foto árbol de Caqui Talagarden vivero de arboles chile">
+                 <div class="text-container-frutal">
+                     <p data-name-prod>undefined</p>
+                     <p >$0</p>
+                     <p >mts</p>
+                 </div>
+             </a>
+            </div>
+            <!-- modal -->
+            <div class="modal" id="modal3">
+                <div class="modal-header"></div>
+                <div class="modal-body">
+                    <div class="modal-title">Nombre</div>
+                    <div class="slider">
+                        <div class="div__slider_container">
+                            <button aria-label="Anterior" class="slider__prev">
+                             <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider__list">
+                                <div class="slider__item glider-slide active center visible">
+                                    <img class="" src="" alt="slider árboles">
+                                </div>
+                            </div>
+                            <button aria-label="Siguiente" class="slider__next">
+                             <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        
+                    </div> <!-- end of slider -->
+
+                    <div role="tablist" class="slider__indicators">
+                        <button data-index="0" aria-label="Page 1" class="glider-dot active"></button>
+                    </div>
+                    <div class="texts-container">
+
+                        <div class="descript-title">Descripción</div>
+                        <p class="modal-descript">
+                         
+                        </p>
+                        <div class="cares-title">Cuidados</div>
+                        <p class="cares-descript">
+                         
+                        </p>
+                        <div class="light-title">Iluminación</div>
+                        <div class="lighting">
+                            
+                         </div>
+                    </div> <!-- end of texts-container -->
+                </div>
+                <div class="modal-footer">
+                 <button data-close-button class="close-button">Cerrar</button>
+                </div> 
+            </div><!-- end of modal1 -->
+            <!-- Overlay for whole page to be in grey while modal is open -->
+            <div id="overlay" class="overlay" ></div>
+            <div class="box-frutales">
+                 <a id="open-modal-link" data-modal-target="#modal4">                  
+                     <img class="img-frutal" src="" alt="foto árbol cerezo Talagarden vivero de arboles chile">
+                     <div class="text-container-frutal">
+                         <p data-name-prod>undefined</p>
+                         <p >$0</p>
+                         <p >mts</p>
+                     </div>
+                 </a>
+            </div>
+            <!-- modal -->
+            <div class="modal" id="modal4">
+                <div class="modal-header"></div>
+                <div class="modal-body">
+                    <div class="modal-title">Nombre</div>
+                    <div class="slider">
+                        <div class="div__slider_container">
+                            <button aria-label="Anterior" class="slider__prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider__list">
+                                <div class="slider__item glider-slide active center visible">
+                                    <img class="" src="" alt="slider árboles">
+                                </div>
+                            </div>
+                            <button aria-label="Siguiente" class="slider__next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+            
+                    </div> <!-- end of slider -->
+            
+                    <div role="tablist" class="slider__indicators">
+                        <button data-index="0" aria-label="Page 1" class="glider-dot active"></button>
+                    </div>
+                    <div class="texts-container">
+            
+                        <div class="descript-title">Descripción</div>
+                        <p class="modal-descript">
+            
+                        </p>
+                        <div class="cares-title">Cuidados</div>
+                        <p class="cares-descript">
+            
+                        </p>
+                        <div class="light-title">Iluminación</div>
+                        <div class="lighting">
+            
+                        </div>
+                    </div> <!-- end of texts-container -->
+                </div>
+                <div class="modal-footer">
+                    <button data-close-button class="close-button">Cerrar</button>
+                </div>
+            </div><!-- end of modal -->
+            <!-- Overlay for whole page to be in grey while modal is open -->
+            <div id="overlay" class="overlay"></div>
+            
+
+
+        </div>
+        <div class="frutales5-6">
+            <div class="box-frutales">
+             <a id="open-modal-link" data-modal-target="#modal5">
+                 <img class="img-frutal" src="" alt="foto árbol de Ciruelo Talagarden vivero de arboles chile">
+                 <div class="text-container-frutal">
+                     <p data-name-prod>undefined</p>
+                     <p>$9.000</p>
+                     <p>Altura: 1.8 mts</p>
+                 </div>
+             </a>
+            </div>
+            <!-- modal -->
+            <div class="modal" id="modal5">
+                <div class="modal-header"></div>
+                <div class="modal-body">
+                    <div class="modal-title">Nombre</div>
+                    <div class="slider">
+                        <div class="div__slider_container">
+                            <button aria-label="Anterior" class="slider__prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider__list">
+                                <div class="slider__item glider-slide active center visible">
+                                    <img class="" src="" alt="slider árboles">
+                                </div>
+                            </div>
+                            <button aria-label="Siguiente" class="slider__next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+            
+                    </div> <!-- end of slider -->
+            
+                    <div role="tablist" class="slider__indicators">
+                        <button data-index="0" aria-label="Page 1" class="glider-dot active"></button>
+                    </div>
+                    <div class="texts-container">
+            
+                        <div class="descript-title">Descripción</div>
+                        <p class="modal-descript">
+            
+                        </p>
+                        <div class="cares-title">Cuidados</div>
+                        <p class="cares-descript">
+            
+                        </p>
+                        <div class="light-title">Iluminación</div>
+                        <div class="lighting">
+            
+                        </div>
+                    </div> <!-- end of texts-container -->
+                </div>
+                <div class="modal-footer">
+                    <button data-close-button class="close-button">Cerrar</button>
+                </div>
+            </div><!-- end of modal -->
+            <!-- Overlay for whole page to be in grey while modal is open -->
+            <div id="overlay" class="overlay"></div>
+            <div class="box-frutales">
+                 <a id="open-modal-link" data-modal-target="#modal6">                  
+                     <img class="img-frutal" src="" alt="foto árbol damasco Talagarden vivero de arboles chile">
+                     <div class="text-container-frutal">
+                         <p data-name-prod>undefined</p>
+                         <p >$0</p>
+                         <p >mts</p>
+                     </div>
+                 </a>
+            </div>
+            <!-- modal -->
+            <div class="modal" id="modal6">
+                <div class="modal-header"></div>
+                <div class="modal-body">
+                    <div class="modal-title">Nombre</div>
+                    <div class="slider">
+                        <div class="div__slider_container">
+                            <button aria-label="Anterior" class="slider__prev">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <div class="slider__list">
+                                <div class="slider__item glider-slide active center visible">
+                                    <img class="" src="" alt="slider árboles">
+                                </div>
+                            </div>
+                            <button aria-label="Siguiente" class="slider__next">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+            
+                    </div> <!-- end of slider -->
+            
+                    <div role="tablist" class="slider__indicators">
+                        <button data-index="0" aria-label="Page 1" class="glider-dot active"></button>
+                    </div>
+                    <div class="texts-container">
+            
+                        <div class="descript-title">Descripción</div>
+                        <p class="modal-descript">
+            
+                        </p>
+                        <div class="cares-title">Cuidados</div>
+                        <p class="cares-descript">
+            
+                        </p>
+                        <div class="light-title">Iluminación</div>
+                        <div class="lighting">
+            
+                        </div>
+                    </div> <!-- end of texts-container -->
+                </div>
+                <div class="modal-footer">
+                    <button data-close-button class="close-button">Cerrar</button>
+                </div>
+            </div><!-- end of modal -->
+            <!-- Overlay for whole page to be in grey while modal is open -->
+            <div id="overlay" class="overlay"></div>
+        </div><!--end frutales 5-6-->
+        
+
+    </section> <!--fin de categories container-->
+    <section class="nav-tab">
+        <div class="tab-container">
+            <a href="./catalog.html" class="prev-arrow"><img src="./icons/arrow-back.svg"  width="35px"></a>
+            <a ><div class="page-1">1</div></a>
+            <!-- <a href="./frutales-2.html"><div class="page-2">2</div></a>
+            <a href="./frutales-2.html"><div class="next">&gt;</div></a> -->
+            
+        </div>
+
+    </section>
+
+
+
+
+    <footer class="footer-container">
+        <div class="footer-tala">
+            <h1 class="encuentranos">Encuéntranos en</h1>
+            <div class="icons-footer">
+                <a class="button-icon" href="https://www.instagram.com/talagarden/?hl=es-la" target="_blank"><img src="./icons/ig-white.png" alt="ícono de instagram"></a>
+                <a class="button-icon" href="https://wa.me/56996756816?texto=Hola%20Quisiera%20consultar%20sobre%20la%20oferta%20del%20mes" target="_blank"><img src="./icons/wa-white.png" alt="ícono de whatsapp"></a>
+                <a class="button-icon" href="mailto:contacto@talagarden.cl" target="_blank"><img src="./icons/mail-white.png" alt="ícono de correo"></a>
+                <a class="button-icon" href="https://www.youtube.com/channel/UCUsAtGkZHiHK5ULm6Qe3qAA" target="_blank"><img src="./icons/yt-white.png" alt="ícono de youtube"></a>
+            </div>
+            <div class="logo-footer">
+                <img src="./images/tala_logo-stroke9-10-10.png" alt="logo Talagarden">
+            </div>
+            <div class="info-footer">
+                <h1 class="title-desktop">Información</h1>
+                <ul class="info-ul">
+                    <a class="li-link" href="" target="_blank"><li>Política de despacho</li></a>
+                    <a class="li-link" href="" target="_blank"><li>Devoluciones</li></a>
+                    <a class="li-link" href="" target="_blank"><li>Preguntas Frecuentes</li></a>
+                </ul>
+            </div>
+            <div class="contacto-footer">
+                <h1 class="title-desktop">Contacto</h1>
+                <ul class="contacto-ul">
+                    <div class="icon-link-container">
+                        <img class="pinpoint-icon"src="./icons/locat-icon-white.png" height="20px" alt="ícono de lugar">
+                        <a class="li-link" href="https://goo.gl/maps/goLBtCx4j1wZmBou9" target="_blank"><li>Talagante</li></a>
+                    </div>
+                    <div class="icon-link-container">
+                        <img class="wa-icon"src="./icons/wa-white.png" height="18px" alt="ícono de whatsapp">
+                        <a class="li-link" href="https://wa.me/56996756816?texto=Hola%20Quisiera%20consultar%20sobre%20la%20oferta%20del%20mes" target="_blank"><li>Whatsapp</li></a>
+                    </div>
+                    <div class="icon-link-container">
+                        <img class="mail-icon"src="./icons/mail-white.png" height="15px" alt="ícono de email">
+                        <a class="li-link" href="mailto:contacto@talagarden.cl" target="_blank"><li>Mail</li></a>
+                    </div>
+                </ul>
+            </div>
+            <div class="social-footer">
+                <h1 class="title-desktop">Redes Sociales</h1>
+                <ul class="social-ul">
+                    <div class="icon-link-container">
+                        <img class="insta-icon"src="./icons/ig-white.png" height="20px" alt="ícono de instagram">
+                        <a class="li-link" href="https://www.instagram.com/talagarden/?hl=es-la" target="_blank"><li>@talagarden</li></a>
+                    </div>
+                    <div class="icon-link-container">
+                        <img class="youtube-icon"src="./icons/yt-white.png" height="20px" alt="ícono de Youtube">
+                        <a class="li-link" href="https://www.youtube.com/channel/UCUsAtGkZHiHK5ULm6Qe3qAA" target="_blank"><li>Talagarden</li></a>
+                    </div>
+                    <div class="icon-link-container">
+                        <img class="twitter-icon"src="./icons/twitter-icon-white.png" height="20px" alt="ícono de twitter">
+                        <a class="li-link" href="https://twitter.com/talagarden" target="_blank"><li>Talagarden</li></a>
+                    </div>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="footer-signature">
+            <p>Hecho con ❤ por Lorena Infante.</p>
+        </div>
+
+
+    </footer> <!--fin del footer-->
+   
+    <script src="https://kit.fontawesome.com/8e423ff9ed.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+    <!-- <script type="module" src="./src/app.js"></script> -->
+    <script src="./src/varios.js"></script>
+    <script src="./src/modals_frutales.js"></script>
+    <script src="./src/glider.js"></script>
+
+</body>
+
+</html>

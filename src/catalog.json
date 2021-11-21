@@ -499,7 +499,7 @@
             "nombre_producto": "Acer Japónico",
             "medidas": "1,5 mts",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Varios Acer japones -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -511,7 +511,7 @@
             "nombre_producto": "Fresno",
             "medidas": "1,8 mts",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/Varios Fresno -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -523,7 +523,7 @@
             "nombre_producto": "Laurel de comer",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Varios Laurel de comer -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -535,7 +535,7 @@
             "nombre_producto": "Liquidambar",
             "medidas": "1,6 mts",
             "precio": 15000,
-            "foto": [""],
+            "foto": ["./images/Varios Liquidambar -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -547,7 +547,7 @@
             "nombre_producto": "Pino Azul",
             "medidas": "40 cms",
             "precio": 10000,
-            "foto": ["https://drive.google.com/drive/folders/1-fh8ncQTBUl8DdGFA4zPm1ldlxJebpvw?usp=sharing"],
+            "foto": ["./images/Pino azul -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -559,7 +559,7 @@
             "nombre_producto": "Tulipero",
             "medidas": "1,6 mts",
             "precio": 15000,
-            "foto": [""],
+            "foto": ["./images/Varios Tulipero -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
