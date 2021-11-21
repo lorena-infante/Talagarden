@@ -571,7 +571,7 @@
             "nombre_producto": "Peumo",
             "medidas": "1,8 mts",
             "precio": 30000,
-            "foto": ["https://drive.google.com/drive/folders/1F38NJz6hVQ8YlkOSIjeXP2VbE4iAoFIP?usp=sharing"],
+            "foto": ["./images/Peumo -Talagarden Vivero Santiago.jpg"],
             "descripcion": "Árbol nativo puede alcanzar los 30 mts de alto, De raiz Pivotante",
             "cuidados": "Requiere Sol, puede resistir heladas y cuando es adulto resiste tiempos de sequia.",
             "luz": [1]
@@ -583,7 +583,7 @@
             "nombre_producto": "Canelo",
             "medidas": "1 mt",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Canelo -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -595,7 +595,7 @@
             "nombre_producto": "Belloto del Norte",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Belloto del norte -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -607,7 +607,7 @@
             "nombre_producto": "Quillay",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Quillay -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -619,7 +619,7 @@
             "nombre_producto": "Quebracho",
             "medidas": "1 mt",
             "precio": 10000,
-            "foto": [""],
+            "foto": ["./images/Araucana -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
@@ -631,7 +631,7 @@
             "nombre_producto": "Huingan",
             "medidas": "1,2 mts",
             "precio": 12000,
-            "foto": [""],
+            "foto": ["./images/Huingan -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz":[]
