@@ -379,7 +379,7 @@
             "nombre_producto": "Palto Hass",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": [""],
+            "foto": ["./images/Paltos Palto Hass -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz": []
@@ -391,7 +391,7 @@
             "nombre_producto": "Palto Negra de la Cruz",
             "medidas": "60 cms",
             "precio": 9000,
-            "foto": [""],
+            "foto": ["./images/Palto Negra de la cruz -Talagarden Vivero Santiago.jpg"],
             "descripcion": "",
             "cuidados": "",
             "luz": []
