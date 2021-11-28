@@ -6,7 +6,15 @@
 .box1, .box3{
   position: relative;
   display: flex;
+  
 }
+
+/* Element | http://127.0.0.1:5500/index.html */
+
+.box1 > img:nth-child(1) {
+  object-fit: cover;
+}
+
 
 @media (min-width: 768px) {
   .boxes {
